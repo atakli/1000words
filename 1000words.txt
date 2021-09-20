@@ -273,7 +273,6 @@ Ceol any,
 aseics
 Maddy Veo
 licen odh @ ameileomn lee,
-hen S41 © ches)
   
 ible) The most neca
 sympathy
@@ -404,7 +403,6 @@ wing
 wipe
 wisdom
 withdraw
-149,
 court
 covert
 craft
@@ -438,7 +436,6 @@ definite
 degree
 delicate
 delicious
-445.
 immorality
 immortal
 impart impartial
@@ -460,34 +457,21 @@ incline -inelination
 incontestable
 inculcate inculeation
 incumbent
-
 incur
-
 indebted
-
 indicate indicative indication
 indictable indictment
 indigent
-
 indubitably
-
 induce
-
 indulge
-
 infant
-
 inferior
-
 infidel
-
 infinite infinity
 inflict
-
 influence
-
 inhabit
-
 inherent
  
 |
@@ -495,12 +479,10 @@ gees
 tribulation
 trickery
 trivial
-
 troop
 trustworthy,
 truthfulness
 tumult
-
 twig
 tyrannical tyranny
 unanimity
@@ -524,9 +506,7 @@ usury
 utilize
 utter
 vague
-
 vain
-
 valley
 valuable
 vanish
@@ -534,7 +514,6 @@ vehement
 veil * unveil
 veneration
 ( )
-
 halt
 hang
 harass
@@ -609,7 +588,6 @@ imitate imitator
 immaterial
 immediacy immediately
 immense
-23.
 distinct
 disturb
 diverse
@@ -632,7 +610,6 @@ ecstasy
 ecstatic
 efforts
 effulgence
-80
 fid
 element
 elevate
@@ -643,7 +620,6 @@ elucidate
 embrace
 ‘embroider
 (possible) The moi EE
-
 generosity
 Generous
 genius
@@ -681,7 +657,6 @@ guilt
 gush
 habit/habitat/habitable
 hallow
-334,
 fine
 finite
 firm
@@ -725,7 +700,6 @@ spite
 splendid splendour
 split
 sprout
-
 stable
 Stamp
 stature
