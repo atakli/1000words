@@ -3,7 +3,7 @@ string
 striving
 struck
 struggle
-stubborn,
+stubborn
 stupid
 subjugate
 sublime
@@ -22,9 +22,9 @@ sufism
 summon
 superficial
 superior
-‘Superstition
+superstition
 supervise
-Supplicate
+supplicate
 supreme
 surmise
 surpass
@@ -41,7 +41,7 @@ expert
 explicit
 exploit
 expose
-expound,
+expound
 exquisite
 extend
 extensive
@@ -72,42 +72,43 @@ fellow
 Festival
 fierce
 figure
-(Possible) The most necassary 1000
-38. amid
-39. angel
-40. animate
-41. annihilate
-42. Antichrist
-43. anxious
-44. apparent
-45. appetite
-46. applauded
-47. appointed hour
-48. appreciate
-48. approach
-50. arrogant
-51. artificially
-52. ascend
-53. Ascension
-54. ascribed
-55. assault
-56. Assembly
-57. assent
-58. assist
-59. astonish
-60. Astray
-61. attain
-62. attribute
-63. authentic
-64. authorit
-65. await
-66. awesome/awe
-68. baseless/base
-69. bearer
-70. beauteous
-RNC
-words fOF
-(po:
+amid
+angel
+animate
+annihilate
+Antichrist
+anxious
+apparent
+appetite
+applauded
+appointed hour
+appreciate
+approach
+arrogant
+artificially
+ascend
+Ascension
+ascribed
+assault
+Assembly
+assent
+assist
+astonish
+Astray
+attain
+attribute
+authentic
+authorit
+await
+awesome/awe
+banquet
+baseless/base
+bearer
+beauteous
+behold
+belief disbelief/disbelieve
+beloved
+beneath
 concise
 condemn
 conduct
@@ -119,14 +120,14 @@ conform
 confront
 confusion
 congratulate
-‘congregate
+congregate
 conquer
 conscientious
 conscious
-‘consensus
+consensus
 consequence
 consolation
-‘constant
+constant
 constellation
 Constitutional
 consult
@@ -135,8 +136,8 @@ contest
 contingent
 contradict
 conversation
-‘convey
-conviet
+convey
+convict
 convince
 corporeal
 corpse
@@ -145,13 +146,12 @@ correspond
 corroborate
 cosmos cosmic
 course
-(possible) Renee ee
 inherit
 iniquity iniquitous
 injunction
 injustice
 innate
-innocence innocent:
+innocence innocent
 innovation innovative
 inscribe
 inscription
@@ -174,43 +174,87 @@ intimidate intimidation
 intoxicate intoxicant
 intrigue
 invalid
-most necassary
-(possible) The
+invent
+investigate investigation investigator investigative
+invite
+involve
+inward
+iota 18*
+irrefutable irrefutably
+irreligion irreligious
+isolate isolation
+denote
+depart
+depend
+depict
+deprave
+deprive
+depth
+deputy
+derive
+descend
+Desert
+desolation
+despair
+despatch
+despot
+deter
+deviate
+devil
+devote
+disappear
+disaster
+discharge
+disease
+disgust
+dispel
+disperse
+display
+disposal
+dispose
+dispute
+disregarded
 dissembler
 disseminate
 dissolute
-distillation /distlled
-75. beneficial
-76. benefit
-77. beseech
-78. Besought
-79. bestow
-80. Beware
-81. bewilder
-82. bitter
-83, blessedness
-84. bliss
-85. boundless
-86. bounty
-87. bow
-‘88, branch
-189, breath,
-90. brilliant
-91. burden
-92. calamity
-93. cease
-94. circumstance
-95. civilization
-96. coincide
-97. collective personality
-98. commentary
-99. commit
-100, Community
-101. Companion
-102. comparison
-103. Compassionate
-compel
-
+distillation /distilled
+beneficial
+benefit
+beseech
+Besought
+bestow
+Beware
+bewilder
+bitter
+blessedness
+bliss
+boundless
+bounty
+bow
+branch
+breath
+brilliant
+burden
+calamity
+cease
+circumstance
+civilization
+coincide
+collective personality
+commentary
+commit
+Community
+Companion
+comparison
+Compassionate
+compell
+compose
+compound
+comprehend
+comprehensive
+comprise
+conceit
+concern
 riddle
 rifle
 rival
@@ -218,46 +262,62 @@ rotation
 rout
 royal
 ruler rulership
-sacred
-sactifice
+sacred sacrifice
 saint Sainthood
 salutation salute
 salvation
 satan
+savage
+scale
+scatter
+scholar
+scribe
+script
+scruple
+scrutinize
+seal
+Seek
+sense
+separation
+Sermon
+servant
 servitude
+severe
 shatter
 sheer
 shell
 shepherd
 shine
- 
-665. plague
-666. _ Plain plainful plainly plainness
-667. _plaint * plaintiffs plaintively plaintive
-668. plea -plead
-669. pleasant pleasanter pleasantness pleasantly
-670. _plunge
-671. pole
-672. ponder
-673. _ portray portrayal portraitist
-674, potion
-675. _ poverty
-676. Pray prayer
-677. _ preacher preach
-678. _ precede precedence
-679. _ preclude
-680. preference
-681, _preliminar preliminary
-682. _ premonition
-683, _preoccupy preoccupied preoccupation
-684. _prescribed
-685. _ prescribed prescription
-686. _ prescription
-687. _ preservation preserve preserver
-688. prevail
-689. pride
+silence
+similitude
+Sincere sincerity
+plague
+Plain plainful plainly plainness
+plaint * plaintiffs plaintively plaintive
+plea -plead
+pleasant pleasanter pleasantness pleasantly
+plunge
+pole
+ponder
+portray portrayal portraitist
+potion
+poverty
+Pray prayer
+preacher preach
+precede precedence
+preclude
+preference
+preliminar preliminary
+premonition
+preoccupy preoccupied preoccupation
+prescribed
+prescribed prescription
+prescription
+preservation preserve preserver
+prevail
+pride
 primitive
-principle principal print
+principle principal principally
 Prison Prisoner
 private privately privation
 proceed
@@ -265,27 +325,24 @@ proclaim proclamation
 prodigal prodigy prodigious
 proficient proficiency
 profound
-997, wrath:
-998, wretch
-999, yearn
-1000. yield
-Ceol any,
-aseics
-Maddy Veo
-licen odh @ ameileomn lee,
-  
-ible) The most neca
+profusion
+progeny progenitor
+prohibit prohibitor prohibition prohibited
+wrath:
+wretch
+yearn
+yield
 sympathy
 taint
 tazilite
 temperament
-‘tempest tempestuous
+tempest tempestuous
 temporary
 tender
 tenet
 terrify
 testify testimony
-‘theologians
+theologians
 theoretical
 throat
 thunder
@@ -298,100 +355,109 @@ tranquil
 transaction
 transcend
 transform
-transeress
+transgress
 transience
 transitory
-mission transmit
-ency
-trans
-transparent transPar
- 
-stery A
-materialism
-558. mature maturity
-559. meddle
-560. melancholy
-561. melon
-562, mental mentality mentally
-563. __mercifulness merciless mercilessness mercilessly
-564. merit meritorious
-565. __-Messengerhood Messengership Messenger
-566. metaphor metaphorical
-567. microcosm
-568. mighty mightiest mightiness
-569. miniature
-570. miniscule
-571. ministry minister
-572. miracle Miraculous miraculously miraclousness
-573. mischief
-574. misfortune
-575. misguidance misguide people of misguidance
-576. missive
-577. ‘mobilize mobilization demobilize
-578. mock
-579. modest
-580. Monarch
-581, monster
-582, moral
-583. morale
-584, ‘motion
-585, mould
-586. mourn
-587, ‘munificent munificence
-588, myriad
-589, mystery mystical myth mystics
-590. narrate narration narrator narrative
-591. nationhood nationality National
-1, abandon.
-2 abase
-3. abject
-4. ablation
-5. abode
-6. abrogate
-7. absolute
-8. absolve
-9. absorb
-10. abundance
-11. abuse.
-12. abyss.
-13. acclaim
-20. acknowledge
-21, acqaintance
-22, acquaint
-23, acquire
-24, acquit
-25. addenda
-26, addendum
-27. adhere
-28. admire
-29, adoration
-30, adorn
-31. affair
-32. affect
-33, affirm
-34, afford
-35. agent
-36. aggress:
-37. alternation \
-  
+transmission transmit
+transparent transparency
+traverse
+treachery
+treasure
+treasury
+treat
+treatise
+tremble
+tremendeous
+tribe tribal tribalism
+master masterly mastery
+materialist material materialized materiality materialism
+mature maturity
+meddle
+melancholy
+melon
+mental mentality mentally
+mercifulness merciless mercilessness mercilessly
+merit meritorious
+Messengerhood Messengership Messenger
+metaphor metaphorical
+microcosm
+mighty mightiest mightiness
+miniature
+miniscule
+ministry minister
+miracle Miraculous miraculously miraclousness
+mischief
+misfortune
+misguidance misguide people of misguidance
+missive
+mobilize mobilization demobilize
+mock
+modest
+Monarch
+monster
+moral
+morale
+motion
+mould
+mourn
+munificent munificence
+myriad
+mystery mystical myth mystics
+narrate narration narrator narrative
+nationhood nationality National
+abandon
+abase
+abject
+ablution
+abode
+abrogate
+absolute
+absolve
+absorb
+abundance
+abuse
+abyss
+acclaim
+accomplish
+accord
+account
+accumulate
+acknowledge
+acqaintance
+acquaint
+acquire
+acquit
+addenda
+addendum
+adhere
+admire
+adoration
+adorn
+affair
+affect
+affirm
+afford
+agent
+aggress
+alternation 
 veracious veracity
 verse
 vexed vex
 vice vicegerency
-964. victor
-965. vile
-966. violate
-967. virtual virtue virtuousness
-968. visible
-969. vital
-970. volition
-971. voluntary,
-972. voyage voyager
-973. wage
-974. wander
-975. ward
-976. _waste wasteland
-977. wave
+victor
+vile
+violate
+virtual virtue virtuousness
+visible
+vital
+volition
+voluntary
+voyage voyager
+wage
+wander
+ward
+waste wasteland
+wave
 weave
 weep
 whisper
@@ -403,6 +469,14 @@ wing
 wipe
 wisdom
 withdraw
+withstand
+witness
+wonder
+wondrous
+workbench
+worship
+worth
+wound
 court
 covert
 craft
@@ -415,8 +489,8 @@ criminal
 criticism
 criticize
 crop
-crvel
-rush
+cruel
+crush
 cure
 darkness
 deceive
@@ -436,9 +510,13 @@ definite
 degree
 delicate
 delicious
+delight
+delusion
+demonstrate
+denial denier
 immorality
 immortal
-impart impartial
+impart -impartial
 impatient impatience
 impel
 imperious
@@ -453,9 +531,9 @@ inauspicious
 incalculable
 incident
 incite
-incline -inelination
+incline -inclination
 incontestable
-inculcate inculeation
+inculcate inculcation
 incumbent
 incur
 indebted
@@ -473,14 +551,11 @@ inflict
 influence
 inhabit
 inherent
- 
-|
-gees
 tribulation
 trickery
 trivial
 troop
-trustworthy,
+trustworthy
 truthfulness
 tumult
 twig
@@ -513,16 +588,15 @@ vanish
 vehement
 veil * unveil
 veneration
-( )
 halt
 hang
 harass
 harmony
 harsh
 hasten
-hhateh
-raven
-heed heediess
+hatch
+heaven
+heed heedless
 heir
 Hell
 herald
@@ -536,49 +610,12 @@ honour
 hostile
 humble
 humiliate / humility
-hundredfola
-hypocrisy/Hypocrite
-idiot
-idle
-idol/idolators /idolatrous
-'gnorance/ignore/ignorant
-iterate
-illuminate
-illusions /itusory
-Mlustrate/illustrator
-imagination
-imitate imitator
-immaterial
-immediacy -immediately
-immense
-halt
-hang
-harass
-harmony
-harsh
-hasten
-hatch
-heaven
-heed,heedless
-heir
-Hell
-herald
-hereafter
-hero/heroic/heroically
-hesitate
-highway
-hinder hindrance
-holy
-honour
-hostile
-humble
-humiliate / humitity
 hundredfold
 hypocrisy/Hypocrite
 idiot
 idle
 idol/idolators /idolatrous
-'gnorance/ignore/ignorant
+ignorance/ignore/ignorant
 illiterate
 illuminate
 illusions /illusory
@@ -586,9 +623,10 @@ illustrate/illustrator
 imagination
 imitate imitator
 immaterial
-immediacy immediately
+immediacy -immediately
 immense
 distinct
+distinguish
 disturb
 diverse
 divide
@@ -610,30 +648,34 @@ ecstasy
 ecstatic
 efforts
 effulgence
-fid
+ego
+Eid
 element
 elevate
 eliminate
 eloquence/ eloquent
 elucidate
-‘embodied
+embodied
 embrace
-‘embroider
-(possible) The moi EE
+embroider
+emerge
+eminent
+emotion
+encompass
 generosity
 Generous
 genius
 gentle
 genuine
-aild
+gild
 glad
 gleam
-slisten
+glisten
 glitter
 globe
 glory
 Glow
-nat
+gnat
 gnosis/ gnostic
 godhead
 Gospel
@@ -649,7 +691,7 @@ gravity
 Great
 greed
 greets
-grief /erieve
+grief /grieve
 growth
 guard
 guest
@@ -667,29 +709,51 @@ flaw
 flee
 fleet
 flesh
-Ming fung 2. hal kiiyatta daha ‘60k gesiyor
+fling (flung 2. hal külliyatta daha çok geçiyor)
 flow
 fluid
-r
-812. skilful
-813. slack
-814. slander
-815. slaughter
-816. slave
-817. Sich
-818. smooth
-819. solace
-820. solar
-821. solicitous solicitude
-822. solid
-823. solitary
-824. solitude
-825. Solomon
-826. soothsayers
-827. sophist
-828. soul
-829. sovereign
-830. sparkle
+foe
+fold
+forbear
+force
+forefather
+foretell
+Forgive
+form
+former
+fortunate
+foundation
+fragment
+Freedom
+fright
+frugal
+fruitful
+fulfill
+fundamental
+furnish
+futile
+garment
+gaze
+generate
+skilful
+slack
+slander
+slaughter
+slave
+smash
+smooth
+solace
+solar
+solicitous solicitude
+solid
+solitary
+solitude
+Solomon
+soothsayers
+sophist
+soul
+sovereign
+sparkle
 specific specify
 specimen
 spectacle
@@ -703,45 +767,47 @@ sprout
 stable
 Stamp
 stature
- 
+stead steadfast
+steam
+sting
+strata
+stratagem
 needy
 nightingale
 noble nobly nobility
 nonsense nonsensical
 nourish
-ull nul
+null nullify
 nurture
 obdurate obduracy
 obedience
 obey
 obligation oblige
-‘obscure obscurity
-observation,observant observably observe
-observatory observance
+obscure obscurity
+observation,observant observably observe observatory observance
 obstacle
 obstinacy obstinate
 obstruct 18 *
 obtain
 occasion
-‘occupy occupation
+occupy occupation
 odd
 ode
 offence
-comission
-‘omnipotent
-Om
-‘opponent
-‘oppress
+omission
+omnipotent
+Omniscient
+opponent
+oppress
 orator
 orbit
 ordinance
-‘ornament ornate
-‘orphan
-‘Outward
+ornament ornate
+orphan
+Outward
 overcome
 overturn
-‘overwhelm
-  
+overwhelm
 recourse
 refined refinement
 reflect
@@ -756,7 +822,7 @@ release
 Reliance reliable
 relief relieve
 religious religiosity
-remedy,
+remedy
 render
 renew
 renown
@@ -765,6 +831,20 @@ repent
 representative
 repulse repulsion repulsive
 requital requite
+reserve
+reside
+resign
+resist
+response
+restrain
+resurrect
+retain
+reveal
+revenge
+reverse
+revolution
+reward
+rhetoric
 jealous *
 judge judgement,
 judicial judiciary judicature
@@ -774,25 +854,25 @@ Knowledge knowledgeable knowledgeably
 labour
 lament
 layer
-tiberality liberation liberty libertarianism
-Alc iit
-Hieutenant
-wift
+liberality liberation liberty libertarianism
+licit* illicit
+lieutenant
+lift
 limb
 literal
-Hiterary literate
-tivelihood
-Joath loathsome loathsomeness
+literary literate
+livelihood
+loath loathsome loathsomeness
 lodge
 lofty
 lovable loveliness Love Lover
 loyal
-Juminous Luminosity luminary
+luminous Luminosity luminary
 lunacy
 lunatic
 macroanthropos
 macrocosm
-magnificent magnify magnificonce magnification
+magnificent magnify magnificence magnification
 majestic
 malice malicious
 manifest
@@ -815,7 +895,7 @@ entire
 entreat
 entrust
 environ
-envoy,
+envoy
 envy
 ephemeral
 equilibrium
@@ -839,11 +919,10 @@ exhibit
 exile
 Exist
 expand
-a.
 court
 covert
 craft
-craftsman.
+craftsman
 create
 creation
 creative
@@ -872,44 +951,43 @@ definite
 degree
 delicate
 delicious
- 
-(NC
-(possible) The most necassary 1000 words for RI
-702, prompt promptly
-703. pronouncement
-704, proof proofless
-705. property
-706. _prophethood
-fi avec ore dparnas poreeineea
-proportionate
-709. propound
-710, prosecute prosecution prosecutor
-711. prosper prosperity prosperous
-712. prostrate prostration
-713. proud proudly
-714. providence provident providentially providential
-738. province provincial
-716. provision
-717, provoke
-718. proximity proxy
-719. pulpit
-720, pupil
-721 smear uT® Pifior purity purty purified purehearted
-Purification purely
-722, purposive purposiveness
-723. pursue pursuit
-724. quantity quantitively
-75. quit
-76. race
-727. racial racialism raciatst
-728, radiance radiant radiantly
-729. rebel Rebellious rebellion
-730. recall
-731, recipient reception receptive
-732. recite
-733. reckon
-734. recluse 16+
-735. recompense
-736. reconcile reconciliation
-737. recount
-
+delight
+delusion
+demonstrate
+denial denier
+prompt promptly
+pronouncement
+proof proofless
+property
+prophethood
+prophetic prophetically
+proportion proportionate proportionately proportionate 
+propound
+prosecute prosecution prosecutor
+prosper prosperity prosperous
+prostrate prostration
+proud proudly
+providence provident providentially providential
+province provincial
+provision
+provoke
+proximity proxy
+pulpit
+pupil
+pure purifier purity purify purified purehearted purification purely
+purposive purposiveness
+pursue pursuit
+quantity quantitively
+quit
+race
+racial racialism racialist
+radiance radiant radiantly
+rebel Rebellious rebellion
+recall
+recipient reception receptive
+recite
+reckon
+recluse 16 *
+recompense
+reconcile reconciliation
+recount
