@@ -51,4 +51,6 @@ testify
 munificence
 embroider
 vital
-brilliant - 6
+brilliant
+purposive - 6
+
