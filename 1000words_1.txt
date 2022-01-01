@@ -3,14 +3,14 @@ hospice
 banquet
 wondrous
 lofty
-manifestation
+manifest
 dispose of
 obedience
 heaven - 1
 awesome
 fashion
 bestow
-fulfilling
+fulfil
 generously
 inanimate
 monarch
@@ -30,7 +30,7 @@ In short -3
 cosmos
 perfection
 inclination
-adorned
+adorn
 Beauteous Being
 Glory
 extraordinary
@@ -116,3 +116,51 @@ extend
 metaphor
 firm
 imperious - 13
+instinct
+deem
+affirm
+obstacle
+distinguish
+specimen
+obscure
+deed
+ascribed
+sublime
+virtue - 14
+inherent
+scatter
+craft
+dwell
+degree
+substance
+pleasant
+instant - 15
+moral
+benefit
+obstinate
+esteemed
+comparison
+striving
+voluntary
+conceit
+endeavour - 16
+transience
+weep
+plunge
+ephemeral
+beneath
+smashed
+extreme
+eternal - 17
+mould
+poverty
+omnipotent
+inferior
+conflict
+assist
+savage
+principle - 18
+authentic
+consensus
+exile
+rebellion
