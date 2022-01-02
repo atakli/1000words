@@ -35,7 +35,7 @@ Beauteous Being
 Glory
 extraordinary
 Paradise - 4
-summoned
+summon
 grandeur
 Miraculous Exposition
 wise
@@ -55,7 +55,7 @@ brilliant
 purposive - 6
 proceed
 gnosis
-glory
+distinct
 comprehensive
 attribute
 display
@@ -164,3 +164,23 @@ authentic
 consensus
 exile
 rebellion
+declare
+struggle
+prophethood - 19
+habit
+dispute
+decept
+trickery
+fancy
+refuse
+hostile
+elevate - 20
+rival
+refine
+peer
+convey
+hesitate
+saint
+imitate
+profound - 21
+reject
