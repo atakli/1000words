@@ -61,7 +61,8 @@ attribute
 authentic
 authorit
 await
-awesome/awe
+awesome
+awe	(bu ikisi yanyanaydı. ben ayırdım [emre])
 banquet
 baseless/base
 bearer

@@ -4,7 +4,7 @@ banquet
 wondrous
 lofty
 manifest
-dispose of
+dispose
 obedience
 heaven - 1
 awesome
@@ -184,3 +184,23 @@ saint
 imitate
 profound - 21
 reject
+reward
+branch
+favour
+disaster
+sting
+affair
+infant
+awe - 22
+justice
+wing
+bliss
+preservation
+hasten
+plea
+limb
+eternity - 23
+fine
+corporeal
+tongue
+endow
