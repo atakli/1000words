@@ -69,7 +69,6 @@ people of misguidence
 opponent
 heed
 luminous
-veracious
 confront
 renown - 8
 provision
@@ -204,3 +203,30 @@ fine
 corporeal
 tongue
 endow
+consequence
+skilful
+create - 24
+inspiration
+compose
+solicitous
+similitude
+obstruct
+shine
+supplicate
+misfortune
+indigent - 25
+reveal
+veracious
+eloquence
+vague
+embodied
+deprive
+portray
+concise - 26
+constellation
+gaze
+supervise
+contemplate
+nourish
+inhabit
+ponder
