@@ -250,3 +250,52 @@ abandon
 exempt
 tyranny
 guilt - 30
+vice
+compell
+fortunate
+rifle
+submit
+vain
+subjugate
+prescribed
+tremble - 31
+equivalent
+narration
+calamity
+beseech
+sincere
+transform
+requital
+anxious
+gratitude - 32
+conduct
+misguidance
+effulgence
+incontestable
+recall
+impart
+answerable - 33
+faith
+remedy
+constant
+diverse
+tillage
+induce
+prohibition
+honour
+reflect
+facility
+conform - 34
+oppress
+latter
+former
+tribunal
+fulfill
+transaction - 35
+separation
+herald
+subtle
+admire
+behold
+vanish
+enmity - 36

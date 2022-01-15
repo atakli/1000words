@@ -37,6 +37,7 @@ amid
 angel
 animate
 annihilate
+answerable [emre]
 Antichrist
 anxious
 apparent
@@ -520,6 +521,7 @@ kingdom kingly king
 Knowledge knowledgeable knowledgeably
 labour
 lament
+latter [emre]
 layer
 liberality liberation liberty libertarianism
 licit* illicit
@@ -765,7 +767,7 @@ shepherd
 shine
 silence
 similitude
-Sincere sincerity
+sincere sincerity
 skilful
 slack
 slander
@@ -878,6 +880,7 @@ tremble
 tremendeous
 tribe tribal tribalism
 tribulation
+tribunal
 trickery
 trivial
 troop
@@ -917,7 +920,8 @@ veneration
 veracious veracity
 verse
 vexed vex
-vice vicegerency
+vice 
+vicegerency (bu ikisi yanyanaydı. ben ayırdım [emre])
 victor
 vile
 violate
