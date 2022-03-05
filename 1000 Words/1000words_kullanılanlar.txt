@@ -73,7 +73,6 @@ confront
 renown - 8
 provision
 comprehend
-divine
 servant
 transparent
 bounty
@@ -250,6 +249,14 @@ abandon
 exempt
 tyranny
 guilt - 30
+fierce
+wage
+excess
+deficient
+futile
+acquire
+will
+knowledge - 31
 vice
 compell
 fortunate
@@ -299,3 +306,4 @@ admire
 behold
 vanish
 enmity - 36
+
