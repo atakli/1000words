@@ -1,5 +1,9 @@
 git config --global credential.helper store
 # her seferinde şifre sormayı bırakması için
+# hatta zbu ayar için timeout da koyabilirsin:
+git config --global credential.helper 'cache --timeout=600'
+# çok hoş: (file contentini clipboard'a kopyala. başka güzel şeyleri de varmış xclip'in. man'ı oku diyorlar)
+xclip -sel c < githubToken.txt
 
 risale = "/home/b720/Desktop/1000words/collection/Signs+of+Miraculousness+-+Vahide.pdf"
 from PyPDF4.pdf import PdfFileReader
