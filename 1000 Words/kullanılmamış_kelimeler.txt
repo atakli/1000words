@@ -25,7 +25,7 @@ alternation
 amid
 animate
 annihilate
-Antichrist
+antichrist
 apparent
 appetite
 applauded
@@ -35,21 +35,20 @@ approach
 arrogant
 artificially
 ascend
-Ascension
+ascension
 assault
-Assembly
+assembly
 astonish
-Astray
+astray
 authorit
 await
-awe	(bu
 baseless / base
 bearer
 belief / disbelief / disbelieve
 beloved
 beneficial
-Besought
-Beware
+besought
+beware
 bewilder
 bitter
 blessedness
@@ -63,9 +62,8 @@ coincide
 collective personality
 commentary
 commit
-Community
-Companion
-Compassionate
+community
+companion
 compound
 confide
 confine
@@ -76,7 +74,7 @@ congregate
 conquer
 conscientious
 consolation
-Constitutional
+constitutional
 consult
 contest
 contingent
@@ -87,7 +85,6 @@ corpse
 corpuscle
 correspond
 corroborate
-cosmos cosmic
 course
 court
 covert
@@ -123,7 +120,7 @@ depth
 deputy
 derive
 descend
-Desert
+desert
 desolation
 despair
 despatch
@@ -144,14 +141,13 @@ dissolute
 distillation / distilled
 disturb
 divide
-divine
 division
 divulge
 doer
 doom / doomsday
 dread
 dream
-Drop / droplet
+drop / droplet
 drowned
 dungeon
 earthquake
@@ -159,7 +155,7 @@ ecstasy
 ecstatic
 efforts
 ego
-Eid
+eid
 element
 eliminate
 elucidate
@@ -170,7 +166,7 @@ emotion
 encompass
 encounter
 enjoin
-Enjoyment
+enjoyment
 ensure
 enthusiasm
 entire
@@ -180,17 +176,14 @@ environ
 envoy
 envy
 erupt
-esteem
 ether
-Everlast
+everlast
 evidence
-Evil
-evil commending soul
 excite
 exclaim
 execute
 exhibit
-Exist
+exist
 expand
 expanse
 expend
@@ -205,23 +198,23 @@ extinction
 extinguish
 extol
 extract
-Faculty
-Falsehood
+faculty
+falsehood
 fame
 fasting
 fate
 faultless
-Fear
+fear
 fear / fearsome
 feast
 feature
 felicity
 fellow
-Festival
+festival
 figure
 finite
 fitting
-Flash
+flash
 flatter
 flaw
 flee
@@ -236,11 +229,11 @@ forbear
 force
 forefather
 foretell
-Forgive
+forgive
 form
 foundation
 fragment
-Freedom
+freedom
 fright
 frugal
 fruitful
@@ -249,7 +242,6 @@ furnish
 garment
 generate
 generosity
-Generous
 genius
 gentle
 genuine
@@ -259,11 +251,10 @@ gleam
 glisten
 glitter
 globe
-glory
-Glow
+glow
 gnat
 godhead
-Gospel
+gospel
 govern
 grace
 grain
@@ -271,7 +262,7 @@ grant
 grasp
 graveyard
 gravity
-Great
+great
 greed
 greets
 growth
@@ -286,7 +277,7 @@ harmony
 harsh
 hatch
 heir
-Hell
+hell
 hereafter
 hero / heroic / heroically
 highway
@@ -295,7 +286,7 @@ holy
 humble
 humiliate / humility
 hundredfold
-hypocrisy / Hypocrite
+hypocrisy / hypocrite
 idiot
 idle
 idol / idolators / idolatrous
@@ -368,7 +359,6 @@ jealous
 judge / judgement
 judicial / judiciary / judicature
 kingdom / kingly / king
-Knowledge / knowledgeable / knowledgeably
 labour
 lament
 layer
@@ -381,7 +371,7 @@ literary / literate
 livelihood
 loath / loathsome / loathsomeness
 lodge
-lovable / loveliness / Love / Lover
+lovable / loveliness / love / lover
 loyal
 lunacy
 lunatic
@@ -390,7 +380,7 @@ macrocosm
 magnificent / magnify / magnificence / magnification
 majestic
 malice / malicious
-Mankind
+mankind
 manoeuvre / manoeuver
 mansion
 manufacture
@@ -403,9 +393,8 @@ meddle
 melancholy
 melon
 mental / mentality / mentally
-mercifulness / merciless / mercilessness / mercilessly
 merit / meritorious
-Messengerhood / Messengership / Messenger
+messengerhood / messengership / messenger
 microcosm
 mighty / mightiest / mightiness
 miniature
@@ -416,12 +405,11 @@ missive
 mobilize / mobilization / demobilize
 mock
 modest
-Monarch
 monster
 morale
 mourn
 myriad
-nationhood / nationality / National
+nationhood / nationality / national
 needy
 nightingale
 noble / nobly / nobility
@@ -437,32 +425,31 @@ odd
 ode
 offence
 omission
-Omniscient
+omniscient
 orator
 orbit
 ordinance
 ornament / ornate
 orphan
-Outward
+outward
 overcome
 overturn
 overwhelm
 plague
-Plain / plainful / plainly / plainness
+plain / plainful / plainly / plainness
 plaint / plaintiffs / plaintively / plaintive
 pole
 potion
-Pray / prayer
+pray / prayer
 preacher / preach
 precede / precedence
-preclude
 preference
 preliminar / preliminary
 premonition
 preoccupy / preoccupied / preoccupation
 prescription
 primitive
-Prison / Prisoner
+prison / prisoner
 private / privately / privation
 prodigal / prodigy / prodigious
 proficient / proficiency
@@ -499,13 +486,12 @@ recompense
 reconcile / reconciliation
 recount
 recourse
-refined / refinement
 refrain
 regime
 regulate / regulation
 rejoice
 release
-Reliance / reliable
+reliance / reliable
 religious / religiosity
 render
 renew
@@ -540,9 +526,9 @@ script
 scruple
 scrutinize
 seal
-Seek
+seek
 sense
-Sermon
+sermon
 servitude
 severe
 shatter
@@ -554,14 +540,13 @@ slack
 slander
 slaughter
 slave
-smash
 smooth
 solace
 solar
 solid
 solitary
 solitude
-Solomon
+solomon
 soothsayers
 sophist
 soul
@@ -574,7 +559,7 @@ spite
 split
 sprout
 stable
-Stamp
+stamp
 stature
 stead / steadfast
 steam
@@ -587,7 +572,7 @@ stubborn
 stupid
 submerge
 submission / submissive
-subsist / Subsistence
+subsist / subsistence
 substitute
 succeed
 succinct
@@ -617,7 +602,6 @@ theologians
 theoretical
 throat
 thunder
-tongue of dispositon
 torment
 torture
 trace
@@ -640,13 +624,13 @@ truthfulness
 tumult
 twig
 unanimity
-Unbelief
+unbelief
 unbiased
 unceasing
 undertake
 unequivocal
 unfair
-Unfortunate
+unfortunate
 union
 unique
 unlawful

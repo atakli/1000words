@@ -38,7 +38,7 @@ angel
 animate
 annihilate
 answerable [emre]
-antichrist
+Antichrist
 anxious
 apparent
 appetite
@@ -49,25 +49,25 @@ approach
 arrogant
 artificially
 ascend
-ascension
+Ascension
 ascribed
 assault
-assembly
+Assembly
 assent
 assist
 astonish
-astray
+Astray
 attain
 attribute
 authentic
 authorit
 await
 awesome
-awe (bu ikisi yanyanaydı. ben ayırdım [emre])
+awe	(bu ikisi yanyanaydı. ben ayırdım [emre])
 banquet
 baseless / base
 bearer
-beauteous being
+beauteous
 behold
 belief / disbelief / disbelieve
 beloved
@@ -75,9 +75,9 @@ beneath
 beneficial
 benefit
 beseech
-besought
+Besought
 bestow
-beware
+Beware
 bewilder
 bitter
 blessedness
@@ -97,10 +97,10 @@ coincide
 collective personality
 commentary
 commit
-community
-companion
+Community
+Companion
 comparison
-compassionate
+Compassionate
 compell
 compose
 compound
@@ -129,7 +129,7 @@ consequence
 consolation
 constant
 constellation
-constitutional
+Constitutional
 consult
 contemplate
 contest
@@ -144,7 +144,7 @@ corpse
 corpuscle
 correspond
 corroborate
-cosmos / cosmic
+cosmos cosmic
 course
 court
 covert
@@ -193,7 +193,7 @@ depth
 deputy
 derive
 descend
-desert
+Desert
 desolation
 despair
 despatch
@@ -223,7 +223,7 @@ distinguish
 disturb
 diverse
 divide
-divine unity
+divine
 division
 divulge
 doer
@@ -232,7 +232,7 @@ doom / doomsday
 doubt
 dread
 dream
-drop / droplet
+Drop / droplet
 drowned
 dungeon
 dwell
@@ -242,7 +242,7 @@ ecstatic
 efforts
 effulgence
 ego
-eid
+Eid
 element
 elevate
 eliminate
@@ -260,7 +260,7 @@ endeavour
 endow
 engage
 enjoin
-enjoyment
+Enjoyment
 enmity
 ensure
 enthusiasm
@@ -279,10 +279,10 @@ esteem
 eternal
 eternity
 ether
-everlast
+Everlast
 evidence
-evil
-evil commanding soul
+Evil
+evil commending soul
 excess
 excite
 exclaim
@@ -290,7 +290,7 @@ execute
 exempt
 exhibit
 exile
-exist
+Exist
 expand
 expanse
 expend
@@ -310,31 +310,30 @@ extract
 extraordinary
 extreme
 facility
-faculty
+Faculty
 faith
-falsehood
+Falsehood
 fame
 fancy
-fashion
 fasting
 fate
 faultless
 favour
-fear
+Fear
 fear / fearsome
 feast
 feature
 feeble
 felicity
 fellow
-festival
+Festival
 fierce
 figure
 fine
 finite
 firm
 fitting
-flash
+Flash
 flatter
 flaw
 flee
@@ -349,13 +348,13 @@ forbear
 force
 forefather
 foretell
-forgive
+Forgive
 form
 former
 fortunate
 foundation
 fragment
-freedom
+Freedom
 fright
 frugal
 fruitful
@@ -367,7 +366,7 @@ garment
 gaze
 generate
 generosity
-generous
+Generous
 genius
 gentle
 genuine
@@ -378,11 +377,11 @@ glisten
 glitter
 globe
 glory
-glow
+Glow
 gnat
 gnosis / gnostic
 godhead
-gospel
+Gospel
 govern
 grace
 grain
@@ -392,7 +391,7 @@ grasp
 grate / grateful / gratitude
 graveyard
 gravity
-great
+Great
 greed
 greets
 grief / grieve
@@ -413,7 +412,7 @@ hatch
 heaven
 heed / heedless
 heir
-hell
+Hell
 herald
 hereafter
 hero / heroic / heroically
@@ -422,12 +421,11 @@ highway
 hinder / hindrance
 holy
 honour
-hospice
 hostile
 humble
 humiliate / humility
 hundredfold
-hypocrisy / hypocrite
+hypocrisy / Hypocrite
 idiot
 idle
 idol / idolators / idolatrous
@@ -520,7 +518,7 @@ judge / judgement
 judicial / judiciary / judicature
 justice / justify / justly
 kingdom / kingly / king
-knowledge / knowledgeable / knowledgeably
+Knowledge / knowledgeable / knowledgeably
 labour
 lament
 latter [emre]
@@ -536,9 +534,9 @@ livelihood
 loath / loathsome / loathsomeness
 lodge
 lofty
-lovable / loveliness / love / lover
+lovable / loveliness / Love / Lover
 loyal
-luminous / luminosity / luminary
+luminous / Luminosity / luminary
 lunacy
 lunatic
 macroanthropos
@@ -547,7 +545,7 @@ magnificent / magnify / magnificence / magnification
 majestic
 malice / malicious
 manifest
-mankind
+Mankind
 manoeuvre / manoeuver
 mansion
 manufacture
@@ -560,9 +558,9 @@ meddle
 melancholy
 melon
 mental / mentality / mentally
-merciful / merciless / mercilessness / mercilessly
+mercifulness / merciless / mercilessness / mercilessly
 merit / meritorious
-messengerhood / messengership / messenger
+Messengerhood / Messengership / Messenger
 metaphor / metaphorical
 microcosm
 mighty / mightiest / mightiness
@@ -570,7 +568,7 @@ miniature
 miniscule
 ministry / minister
 miracle / miraculous / miraculously / miraclousness
-miraculous exposition
+Miraculous Exposition
 mischief
 misfortune
 misguidance / misguide / people of misguidance
@@ -578,7 +576,7 @@ missive
 mobilize / mobilization / demobilize
 mock
 modest
-monarch
+Monarch
 monster
 moral
 morale
@@ -589,7 +587,7 @@ munificent / munificence
 myriad
 mystery / mystical / myth / mystics
 narrate / narration / narrator / narrative
-nationhood / nationality / national
+nationhood / nationality / National
 needy
 nightingale
 noble / nobly / nobility
@@ -614,7 +612,7 @@ ode
 offence
 omission
 omnipotent
-omniscient
+Omniscient
 opponent
 oppress
 orator
@@ -622,15 +620,12 @@ orbit
 ordinance
 ornament / ornate
 orphan
-outward
+Outward
 overcome
 overturn
 overwhelm
-paradise
-peer [emre]
-perfection
 plague
-plain / plainful / plainly / plainness
+Plain / plainful / plainly / plainness
 plaint / plaintiffs / plaintively / plaintive
 plea / plead
 pleasant / pleasanter / pleasantness / pleasantly
@@ -640,7 +635,7 @@ ponder
 portray / portrayal / portraitist
 potion
 poverty
-pray / prayer
+Pray / prayer
 preacher / preach
 precede / precedence
 preclude
@@ -656,7 +651,7 @@ prevail
 pride
 primitive
 principle / principal / principally
-prison / prisoner
+Prison / Prisoner
 private / privately / privation
 proceed
 proclaim / proclamation
@@ -693,8 +688,7 @@ quit
 race
 racial / racialism / racialist
 radiance / radiant / radiantly
-realm
-rebel / rebellious / rebellion
+rebel / Rebellious / rebellion
 recall
 recipient / reception / receptive
 recite
@@ -704,7 +698,7 @@ recompense
 reconcile / reconciliation
 recount
 recourse
-refine / refinement
+refined / refinement
 reflect
 refrain
 refuse / refusal
@@ -714,7 +708,7 @@ regulate / regulation
 reject
 rejoice
 release
-reliance / reliable
+Reliance / reliable
 relief / relieve
 religious / religiosity
 remedy
@@ -748,7 +742,7 @@ rout
 royal
 ruler / rulership
 sacred / sacrifice
-saint / sainthood
+saint / Sainthood
 salutation / salute
 salvation
 satan
@@ -761,10 +755,10 @@ script
 scruple
 scrutinize
 seal
-seek
+Seek
 sense
 separation
-sermon
+Sermon
 servant
 servitude
 severe
@@ -789,7 +783,7 @@ solicitous / solicitude
 solid
 solitary
 solitude
-solomon
+Solomon
 soothsayers
 sophist
 soul
@@ -806,7 +800,7 @@ splendid / splendour
 split
 sprout
 stable
-stamp
+Stamp
 stature
 stead / steadfast
 steam
@@ -821,11 +815,11 @@ struggle
 stubborn
 stupid
 subjugate
-sublimity
+sublime
 submerge
 submission / submissive
 submit
-subsist / subsistence
+subsist / Subsistence
 substance
 substitute
 subtle
@@ -841,14 +835,12 @@ superstition
 supervise
 supplicate
 supreme
-supreme gathering
 surmise
 surpass
 surrender
 surround
 surveillance
 suspend
-sustainer
 swallow
 swamp
 swift
@@ -867,7 +859,7 @@ theoretical
 throat
 thunder
 tillage
-tongue (of dispositon kısmını çıkardım şimdilik [emre])
+tongue of dispositon
 torment
 torture
 trace
@@ -901,13 +893,13 @@ twig
 tyrannical / tyranny
 unanimity
 unanimous
-unbelief
+Unbelief
 unbiased
 unceasing
 undertake
 unequivocal
 unfair
-unfortunate
+Unfortunate
 union
 unique
 universe
@@ -918,7 +910,6 @@ uphold
 upright
 usury
 utilize
-utmost
 utter
 vague
 vain
@@ -957,7 +948,6 @@ wile
 will (ben koydum [emre])
 wing
 wipe
-wise
 wisdom
 withdraw
 withstand

@@ -10,37 +10,38 @@ heaven - 1
 awesome
 fashion
 bestow
-fulfill
-generous
+fulfil
+generously
 inanimate
 monarch
 delicate
 compassionate
 dominical - 2
 motion
-supreme gathering
+Supreme Gathering
 equilibrium
-sustainer
+Sustainer
 utmost
 miraculous
 nurture
 treasury
-merciful - 3
+Merciful
+In short - 3
 cosmos
 perfection
 inclination
 adorn
-beauteous being
-glory
+Beauteous Being
+Glory
 extraordinary
-paradise - 4
+Paradise - 4
 summon
 grandeur
-miraculous exposition
+Miraculous Exposition
 wise
 infinite
 wisdom
-divine unity
+Divine unity
 sublimity - 5
 splendid
 proclamation
@@ -59,12 +60,12 @@ comprehensive
 attribute
 display
 wonder
-preclude - 7
+precluded - 7
 voyager
 supreme
 assent
 sacred
-people of misguidance
+people of misguidence
 opponent
 heed
 luminous
@@ -100,6 +101,7 @@ testimony
 condemn
 contradict
 devote
+beauteous
 veil
 vicegerency
 cruel - 12
@@ -121,6 +123,7 @@ specimen
 obscure
 deed
 ascribed
+sublime
 virtue - 14
 inherent
 scatter
@@ -133,7 +136,7 @@ instant - 15
 moral
 benefit
 obstinate
-esteem
+esteemed
 comparison
 striving
 voluntary
@@ -144,7 +147,7 @@ weep
 plunge
 ephemeral
 beneath
-smash
+smashed
 extreme
 eternal - 17
 mould
@@ -235,7 +238,7 @@ sufficient
 angel - 28
 obligation
 proud
-evil commanding soul
+evil-commanding soul
 mystery
 grief
 relieve
@@ -273,6 +276,7 @@ requital
 anxious
 gratitude - 32
 conduct
+misguidance
 effulgence
 incontestable
 recall

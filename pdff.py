@@ -27,8 +27,8 @@ with open("/home/b720/Desktop/1000words/1000 Words/1000words_kullanılanlar.txt"
 	used_words = dosya.readlines()
 used_words_new = []
 for word in used_words:
-	if ' ' in word:
-		word = word.split(' ')[0]
+	if ' - ' in word:
+		word = word.split(' - ')[0]
 	used_words_new.append(word.strip())
 used_words = used_words_new
 del used_words_new
@@ -42,15 +42,13 @@ for word in all_words:
 	all_words_new.append(word.strip())
 all_words = all_words_new
 del all_words_new					# emre gibi yazanlar elendi
-"""
+
 all_words_new = []
 for word in all_words:
 	if '/' in word:
 		all_words_new += word.split(' / ')
-	all_words_new.append(word)
-all_words = all_words_new
-del all_words_new					# / olanlar ayrıldı
-"""
+	all_words_new.append(word)			# / olanlar ayrıldı
+
 unused_words = []
 for word in all_words:
 	if '/' not in word:
@@ -72,6 +70,12 @@ for word in unused_words:
 	unused_words_new.append(word + '\n')
 with open('/home/b720/Desktop/1000words/1000 Words/kullanılmamış_kelimeler.txt','w') as file:
 	file.writelines(unused_words_new)
+		
+noluyor = []
+for i in used_words:
+	if i not in all_words_new:
+		noluyor.append(i)
+print(*noluyor,sep='\n')
 		
 for word in all_words:
 	if word not in used_words:
