@@ -1,3 +1,6 @@
+git config --global credential.helper store
+# her seferinde şifre sormayı bırakması için
+
 risale = "/home/b720/Desktop/1000words/collection/Signs+of+Miraculousness+-+Vahide.pdf"
 from PyPDF4.pdf import PdfFileReader
 reader = PdfFileReader(open(risale, "rb"))
