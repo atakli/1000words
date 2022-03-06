@@ -94,13 +94,36 @@ for i in unused_words:
 		noluyor.append(i)
 print(*noluyor,sep='\n')
 """
-for word in all_words:
-	if word not in used_words:
+def icinde_mi(baslangic_noktasi, kombinasyon):
+	if  in (baslangic_noktasi + 2300)
+	return 
+
+
+from itertools import combinations
+kombinasyonlar = []
+unused_words1 = unused_words
+def komb_yap(silinecek_item):
+	for sil in silinecek_item:
+		unused_words1.remove(sil)
+	kombinasyonlar = list(combinations(unused_words1, 4))
+komb_yap([])
+for komb in kombinasyonlar:
+	for word in komb:
 		findings = list(find_all(text, word))
 		if findings:
 			for finding in findings:
-				for word_2 in all_words:
-			
-		( [ 
-		/
+				icinde_mi(finding, komb)
+findings = []
+for komb in kombinasyonlar[:10]:
+	for word in komb:
+		findings += list(find_all(text, word))
+
+
+
+
+
+
+
+
+
 
