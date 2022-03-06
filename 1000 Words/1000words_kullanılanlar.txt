@@ -168,7 +168,6 @@ decept
 trickery
 fancy
 refuse
-hostile
 elevate - 20
 rival
 refine
@@ -293,7 +292,6 @@ oppress
 latter
 former
 tribunal
-fulfill
 transaction - 35
 separation
 herald
