@@ -5,7 +5,7 @@ git config --global credential.helper 'cache --timeout=600'
 # çok hoş: (file contentini clipboard'a kopyala. başka güzel şeyleri de varmış xclip'in. man'ı oku diyorlar)
 xclip -sel c < githubToken.txt
 
-#import collections # used_words'daki duplicate'leri bulmak için
+#import collections # used_words'daki duplicate'leri bulmak için. all_words_new'de 4 tane çıktı namussuz
 #print([item for item, count in collections.Counter(used_words).items() if count > 1])
 
 risale = "/home/b720/Desktop/1000words/collection/Signs+of+Miraculousness+-+Vahide.pdf"
@@ -51,6 +51,13 @@ for word in all_words:
 	if '/' in word:
 		all_words_new += word.split(' / ')
 	all_words_new.append(word)			# / olanlar ayrıldı
+"""
+unused_words_new1 = []
+for word in unused_words:
+	if '/' in word:
+		unused_words_new1 += word.split(' / ')
+	unused_words_new1.append(word)
+"""
 
 unused_words = []
 for word in all_words:
@@ -80,12 +87,13 @@ for i in used_words:
 		noluyor.append(i)
 print(*noluyor,sep='\n')
 """
+"""
 noluyor = []
 for i in unused_words:
 	if i not in all_words:
 		noluyor.append(i)
 print(*noluyor,sep='\n')
-	
+"""
 for word in all_words:
 	if word not in used_words:
 		findings = list(find_all(text, word))

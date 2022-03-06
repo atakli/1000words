@@ -320,7 +320,6 @@ fasting
 fate
 faultless
 favour
-fear
 fear / fearsome
 feast
 feature
@@ -648,9 +647,7 @@ preference
 preliminar / preliminary
 premonition
 preoccupy / preoccupied / preoccupation
-prescribed
 prescribed / prescription
-prescription
 preservation / preserve / preserver
 prevail
 pride
@@ -672,7 +669,7 @@ proof / proofless
 property
 prophethood
 prophetic / prophetically
-proportion / proportionate / proportionately / proportionate 
+proportion / proportionate / proportionately 
 propound
 prosecute / prosecution / prosecutor
 prosper / prosperity / prosperous

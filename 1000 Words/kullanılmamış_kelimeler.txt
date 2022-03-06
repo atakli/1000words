@@ -204,7 +204,6 @@ fame
 fasting
 fate
 faultless
-fear
 fear / fearsome
 feast
 feature
@@ -447,7 +446,6 @@ preference
 preliminar / preliminary
 premonition
 preoccupy / preoccupied / preoccupation
-prescription
 primitive
 prison / prisoner
 private / privately / privation
@@ -460,7 +458,7 @@ pronouncement
 proof / proofless
 property
 prophetic / prophetically
-proportion / proportionate / proportionately / proportionate
+proportion / proportionate / proportionately
 propound
 prosecute / prosecution / prosecutor
 prosper / prosperity / prosperous
