@@ -15,7 +15,7 @@ def find_all(a_str, sub):
 
 from pdfminer.high_level import extract_text
 text = extract_text("/home/b720/Desktop/1000words/collection/Signs+of+Miraculousness+-+Vahide.pdf")
-
+ 
 with open("/home/b720/Desktop/1000words/1000 Words/1000words_kullanılanlar.txt") as dosya:
 	used_words = dosya.readlines()
 used_words_new = []
