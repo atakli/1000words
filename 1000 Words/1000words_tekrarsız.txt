@@ -935,7 +935,7 @@ voyage / voyager
 wage
 wander
 ward
-waste / 	wasteland
+waste / wasteland
 wave
 weave
 weep

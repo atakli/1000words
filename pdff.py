@@ -1,9 +1,9 @@
 risale = "/home/b720/Desktop/1000words/collection/Signs+of+Miraculousness+-+Vahide.pdf"
-from sys import path
-path.append("/home/b720/Downloads/PyPDF4")
-from pypdf.pdf import PdfFileReader
+from PyPDF4.pdf import PdfFileReader
 reader = PdfFileReader(open(risale, "rb"))
 print(reader.numPages)
+
+from pdfminer.high_level import extract_text
 
 def find_all(a_str, sub):
     start = 0
@@ -22,17 +22,17 @@ used_words_new = []
 for word in used_words:
 	if ' ' in word:
 		word = word.split(' ')[0]
-	used_words_new.append(word)
+	used_words_new.append(word.strip())
 used_words = used_words_new
 del used_words_new
+
 with open("/home/b720/Desktop/1000words/1000 Words/1000words_tekrarsız.txt") as dosya:
-	all_words = dosya.readlines()
-	
+	all_words = dosya.readlines()	
 all_words_new = []
 for word in all_words:
 	if '(' in word or '[' in word:
 		 word = word.split(' ')[0]
-	all_words_new.append(word)
+	all_words_new.append(word.strip())
 all_words = all_words_new
 del all_words_new					# emre gibi yazanlar elendi
 """
@@ -48,16 +48,23 @@ unused_words = []
 for word in all_words:
 	if '/' not in word:
 		if word not in used_words:
-			unused_words.append(word)
+			unused_words.append(word.strip())
 	else:
-		for w in word.split(' / '):
+		sayaç = 0
+		splitted_word = word.split(' / ')
+		for w in splitted_word:
 			if w in used_words:
 				break
 			else:
-				unused_words.append(word)
-
+				sayaç += 1
+				continue
+		if sayaç == len(splitted_word):
+			unused_words.append(word.strip())
+unused_words_new = []
+for word in unused_words:
+	unused_words_new.append(word + '\n')
 with open('/home/b720/Desktop/1000words/1000 Words/kullanılmamış_kelimeler.txt','w') as file:
-	file.writelines(unused_words)
+	file.writelines(unused_words_new)
 		
 for word in all_words:
 	if word not in used_words:
