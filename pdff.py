@@ -13,6 +13,20 @@ from PyPDF4.pdf import PdfFileReader
 reader = PdfFileReader(open(risale, "rb"))
 print(reader.numPages)
 
+"""
+slash = []				# kalan eksikleri burası sayesinde buldum. meğer "bu satırdakilerden sadece birini kullan" dediklerimizden birden fazlasını kullanmışız
+for i in all_words:
+	if '/' in i:
+	    slash.append(i.split(' / '))
+for i in slash:
+    p = 0
+    for j in i:
+        if j in used_words:
+            p += 1
+    if p > 1:
+        print(i)
+"""
+
 from pdfminer.high_level import extract_text
 
 def find_all(a_str, sub):

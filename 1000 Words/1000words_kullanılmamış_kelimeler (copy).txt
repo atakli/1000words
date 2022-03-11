@@ -1,45 +1,31 @@
-abandon
 abase
 abject
 ablution
-abode
 abrogate
-absolute
 absolve
 absorb
-abundance
 abuse
 abyss
 acclaim
-accomplish
-accord
 account
 accumulate
 acknowledge
 acqaintance
 acquaint
-acquire
 acquit
 addenda
 addendum
 adhere
-admire
 adoration
-adorn
-affair
 affect
-affirm
 afford
 agent
 aggress
-alternation 
+alternation
 amid
-angel
 animate
 annihilate
-answerable [emre]
 antichrist
-anxious
 apparent
 appetite
 applauded
@@ -50,46 +36,25 @@ arrogant
 artificially
 ascend
 ascension
-ascribed
 assault
 assembly
-assent
-assist
 astonish
 astray
-attain
-attribute
-authentic
 authorit
 await
-awesome
-awe (bu ikisi yanyanaydı. ben ayırdım [emre])
-banquet
 baseless / base
 bearer
-beauteous being
-behold
 belief / disbelief / disbelieve
 beloved
-beneath
 beneficial
-benefit
-beseech
 besought
-bestow
 beware
 bewilder
 bitter
 blessedness
-bliss
 boundless
-bounty
 bow
-branch
-breath
-brilliant
 burden
-calamity
 cease
 circumstance
 civilization
@@ -99,58 +64,31 @@ commentary
 commit
 community
 companion
-comparison
-compassionate
-compell
-compose
 compound
-comprehend
-comprehensive
-comprise
-conceit
-concern
-concise
-condemn
-conduct
 confide
 confine
 confirm
-conflict
-conform
-confront
 confusion
 congratulate
 congregate
 conquer
 conscientious
-conscious
-consensus
-consequence
 consolation
-constant
-constellation
 constitutional
 consult
-contemplate
 contest
 contingent
-contradict
 conversation
-convey
 convict
 convince
-corporeal
 corpse
 corpuscle
 correspond
 corroborate
-cosmos / cosmic
 course
 court
 covert
-craft
 craftsman
-create
 creation
 creative
 crescent
@@ -158,37 +96,26 @@ criminal
 criticism
 criticize
 crop
-cruel
 crush
 cure
 darkness
 deceive
-decept
 decisive
-declare
-decorate
 decree
 deduce
-deed
-deem
 defect
 defence
-deficient
 define
 definite
-degree
-delicate
 delicious
 delight
 delusion
 demonstrate
 denial / denier
 denote
-depart
 depend
 depict
 deprave
-deprive
 depth
 deputy
 derive
@@ -201,67 +128,45 @@ despot
 deter
 deviate
 devil
-devote
 disappear
-disaster
 discharge
 disease
 disgust
 dispel
 disperse
-display
-disposal
-dispose
-dispute
 disregarded
 dissembler
 disseminate
 dissolute
 distillation / distilled
-distinct
-distinguish
 disturb
-diverse
 divide
-divine unity
 division
 divulge
 doer
-dominical
 doom / doomsday
-doubt
 dread
 dream
 drop / droplet
 drowned
 dungeon
-dwell
 earthquake
 ecstasy
 ecstatic
 efforts
-effulgence
 ego
 eid
 element
-elevate
 eliminate
-eloquence / eloquent
 elucidate
-embodied
 embrace
-embroider
 emerge
 eminent
 emotion
 encompass
 encounter
-endeavour
-endow
-engage
 enjoin
 enjoyment
-enmity
 ensure
 enthusiasm
 entire
@@ -270,26 +175,14 @@ entrust
 environ
 envoy
 envy
-ephemeral
-equilibrium
-equivalent
 erupt
-essence
-esteem
-eternal
-eternity
 ether
 everlast
 evidence
-evil
-evil commanding soul
-excess
 excite
 exclaim
 execute
-exempt
 exhibit
-exile
 exist
 expand
 expanse
@@ -298,40 +191,27 @@ expert
 explicit
 exploit
 expose
-expound
 exquisite
-extend
 extensive
 external
 extinction
 extinguish
 extol
 extract
-extraordinary
-extreme
-facility
 faculty
-faith
 falsehood
 fame
-fancy
-fashion
 fasting
 fate
 faultless
-favour
 fear / fearsome
 feast
 feature
-feeble
 felicity
 fellow
 festival
-fierce
 figure
-fine
 finite
-firm
 fitting
 flash
 flatter
@@ -339,7 +219,7 @@ flaw
 flee
 fleet
 flesh
-fling (flung 2. hal külliyatta daha çok geçiyor)
+fling
 flow
 fluid
 foe
@@ -350,23 +230,17 @@ forefather
 foretell
 forgive
 form
-former
-fortunate
 foundation
 fragment
 freedom
 fright
 frugal
 fruitful
-fulfill
 fundamental
 furnish
-futile
 garment
-gaze
 generate
 generosity
-generous
 genius
 gentle
 genuine
@@ -376,53 +250,38 @@ gleam
 glisten
 glitter
 globe
-glory
 glow
 gnat
-gnosis / gnostic
 godhead
 gospel
 govern
 grace
 grain
-grandeur
 grant
 grasp
-grate / grateful / gratitude
 graveyard
 gravity
 great
 greed
 greets
-grief / grieve
 growth
 guard
 guest
-guilt
 gush
-habit / habitat / habitable
 hallow
 halt
 hang
 harass
 harmony
 harsh
-hasten
 hatch
-heaven
-heed / heedless
 heir
 hell
-herald
 hereafter
 hero / heroic / heroically
-hesitate
 highway
 hinder / hindrance
 holy
-honour
-hospice
-hostile
 humble
 humiliate / humility
 hundredfold
@@ -436,47 +295,32 @@ illuminate
 illusions / illusory
 illustrate / illustrator
 imagination
-imitate / imitator
 immaterial
 immediacy / immediately
 immense
 immorality
 immortal
-impart / impartial
 impatient / impatience
 impel
-imperious
 implicitly
 impose / imposition
-impotence
 impress
 imprison
 impute
-inanimate
 inauspicious
 incalculable
 incident
-incite
-incline / inclination
-incontestable
 inculcate / inculcation
 incumbent
 incur
 indebted
 indicate / indicative / indication
 indictable / indictment
-indigent
 indubitably
-induce
 indulge
-infant
-inferior
 infidel
-infinite / infinity
 inflict
 influence
-inhabit
-inherent
 inherit
 iniquity / iniquitous
 injunction
@@ -488,10 +332,7 @@ inscribe
 inscription
 insistent
 inspect
-inspiration / inspire
-instant / instantaneous
 instil
-instinct
 instruct / instructive
 insult
 intense / intensive
@@ -499,7 +340,6 @@ intercessor
 intermingle
 internal
 interpret
-intervene
 intimate / intimations
 intimidate / intimidation
 intoxicate / intoxicant
@@ -517,27 +357,21 @@ isolate / isolation
 jealous
 judge / judgement
 judicial / judiciary / judicature
-justice / justify / justly
 kingdom / kingly / king
-knowledge / knowledgeable / knowledgeably
 labour
 lament
-latter [emre]
 layer
 liberality / liberation / liberty / libertarianism
 licit / illicit
 lieutenant
 lift
-limb
 literal
 literary / literate
 livelihood
 loath / loathsome / loathsomeness
 lodge
-lofty
 lovable / loveliness / love / lover
 loyal
-luminous / luminosity / luminary
 lunacy
 lunatic
 macroanthropos
@@ -545,7 +379,6 @@ macrocosm
 magnificent / magnify / magnificence / magnification
 majestic
 malice / malicious
-manifest
 mankind
 manoeuvre / manoeuver
 mansion
@@ -559,52 +392,31 @@ meddle
 melancholy
 melon
 mental / mentality / mentally
-merciful / merciless / mercilessness / mercilessly
 merit / meritorious
 messengerhood / messengership / messenger
-metaphor / metaphorical
 microcosm
 mighty / mightiest / mightiness
 miniature
 miniscule
 ministry / minister
-miracle / miraculous / miraculously / miraclousness
-miraculous exposition
 mischief
-misfortune
-misguidance / misguide / people of misguidance
 missive
 mobilize / mobilization / demobilize
 mock
 modest
-monarch
 monster
-moral
 morale
-motion
-mould
 mourn
-munificent / munificence
 myriad
-mystery / mystical / myth / mystics
-narrate / narration / narrator / narrative
 nationhood / nationality / national
 needy
 nightingale
 noble / nobly / nobility
 nonsense / nonsensical
-nourish
 null / nullify
-nurture
 obdurate / obduracy
-obedience
 obey
-obligation / oblige
-obscure / obscurity
 observation / observant / observably / observe / observatory / observance
-obstacle
-obstinacy / obstinate
-obstruct
 obtain
 occasion
 occupy / occupation
@@ -612,10 +424,7 @@ odd
 ode
 offence
 omission
-omnipotent
 omniscient
-opponent
-oppress
 orator
 orbit
 ordinance
@@ -625,74 +434,48 @@ outward
 overcome
 overturn
 overwhelm
-paradise
-peer [emre]
-perfection
 plague
 plain / plainful / plainly / plainness
 plaint / plaintiffs / plaintively / plaintive
-plea / plead
-pleasant / pleasanter / pleasantness / pleasantly
-plunge
 pole
-ponder
-portray / portrayal / portraitist
 potion
-poverty
 pray / prayer
 preacher / preach
 precede / precedence
-preclude
 preference
 preliminar / preliminary
 premonition
 preoccupy / preoccupied / preoccupation
-prescribed / prescription
-preservation / preserve / preserver
-prevail
-pride
 primitive
-principle / principal / principally
 prison / prisoner
 private / privately / privation
-proceed
-proclaim / proclamation
 prodigal / prodigy / prodigious
 proficient / proficiency
-profound
 profusion
 progeny / progenitor
-prohibit / prohibitor / prohibition / prohibited
 prompt / promptly
 pronouncement
 proof / proofless
 property
-prophethood
 prophetic / prophetically
-proportion / proportionate / proportionately 
+proportion / proportionate / proportionately
 propound
 prosecute / prosecution / prosecutor
 prosper / prosperity / prosperous
 prostrate / prostration
-proud / proudly
 providence / provident / providentially / providential
 province / provincial
-provision
 provoke
 proximity / proxy
 pulpit
 pupil
 pure / purifier / purity / purify / purified / purehearted / purification / purely
-purposive / purposiveness
 pursue / pursuit
 quantity / quantitively
 quit
 race
 racial / racialism / racialist
 radiance / radiant / radiantly
-realm
-rebel / rebellious / rebellion
-recall
 recipient / reception / receptive
 recite
 reckon
@@ -701,28 +484,19 @@ recompense
 reconcile / reconciliation
 recount
 recourse
-refine / refinement
-reflect
 refrain
-refuse / refusal
-refute / refutation
 regime
 regulate / regulation
-reject
 rejoice
 release
 reliance / reliable
-relief / relieve
 religious / religiosity
-remedy
 render
 renew
-renown
 repel
 repent
 representative
 repulse / repulsion / repulsive
-requital / requite
 reserve
 reside
 resign
@@ -731,27 +505,19 @@ response
 restrain
 resurrect
 retain
-reveal
 revenge
 reverse
 revolution
-reward
 rhetoric
 riddle
-rifle
-rival
 rotation
 rout
 royal
 ruler / rulership
-sacred / sacrifice
-saint / sainthood
 salutation / salute
 salvation
 satan
-savage
 scale
-scatter
 scholar
 scribe
 script
@@ -760,29 +526,21 @@ scrutinize
 seal
 seek
 sense
-separation
 sermon
-servant
 servitude
 severe
 shatter
 sheer
 shell
 shepherd
-shine
 silence
-similitude
-sincere / sincerity
-skilful
 slack
 slander
 slaughter
 slave
-smash
 smooth
 solace
 solar
-solicitous / solicitude
 solid
 solitary
 solitude
@@ -790,16 +548,12 @@ solomon
 soothsayers
 sophist
 soul
-sovereign
 sparkle
 specific / specify
-specimen
 spectacle
 sphere
 spin / spinning
-spirit / spiritual
 spite
-splendid / splendour
 split
 sprout
 stable
@@ -807,45 +561,29 @@ stamp
 stature
 stead / steadfast
 steam
-sting
 strata
 stratagem
 stray
 string
-striving
 struck
-struggle
 stubborn
 stupid
-subjugate
-sublimity
 submerge
 submission / submissive
-submit
 subsist / subsistence
-substance
 substitute
-subtle
 succeed
 succinct
 suffice
-sufficient
 sufism
-summon
 superficial
 superior
 superstition
-supervise
-supplicate
-supreme
-supreme gathering
-surmise
 surpass
 surrender
 surround
 surveillance
 suspend
-sustainer
 swallow
 swamp
 swift
@@ -858,46 +596,32 @@ temporary
 tender
 tenet
 terrify
-testify / testimony
 theologians
 theoretical
 throat
 thunder
-tillage
-tongue (of dispositon kısmını çıkardım şimdilik [emre])
 torment
 torture
 trace
 tranquil
-transaction
-transcend
-transform
 transgress
-transience
 transitory
 transmission / transmit
-transparent / transparency
 traverse
 treachery
 treasure
-treasury
 treat
 treatise
-tremble
 tremendeous
 tribe / tribal / tribalism
 tribulation
-tribunal
-trickery
 trivial
 troop
 trustworthy
 truthfulness
 tumult
 twig
-tyrannical / tyranny
 unanimity
-unanimous
 unbelief
 unbiased
 unceasing
@@ -907,7 +631,6 @@ unfair
 unfortunate
 union
 unique
-universe
 unlawful
 unseen
 upheaval
@@ -915,54 +638,32 @@ uphold
 upright
 usury
 utilize
-utmost
 utter
-vague
-vain
 valley
 valuable
-vanish
 vehement
-veil / unveil
 veneration
-veracious / veracity
 verse
 vexed / vex
-vice 
-vicegerency (bu ikisi yanyanaydı. ben ayırdım [emre])
 victor
-vile
 violate
-virtual / virtue / virtuousness
 visible
-vital
 volition
-voluntary
-voyage / voyager
-wage
 wander
 ward
 waste / wasteland
 wave
 weave
-weep
 whisper
 wick
 widespread
 wild
 wile
-will (ben koydum [emre])
-wing
 wipe
-wise
-wisdom
 withdraw
 withstand
 witness
-wonder
-wondrous
 workbench
-worship
 worth
 wound
 wrath

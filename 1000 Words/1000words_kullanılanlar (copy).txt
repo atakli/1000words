@@ -10,44 +10,41 @@ heaven - 1
 awesome
 fashion
 bestow
-fulfil
-generously
+fulfill
+generous
 inanimate
 monarch
 delicate
 compassionate
 dominical - 2
 motion
-Supreme Gathering
+supreme gathering
 equilibrium
-Sustainer
+sustainer
 utmost
 miraculous
 nurture
 treasury
-Merciful
-In short - 3
+merciful - 3
 cosmos
 perfection
 inclination
 adorn
-Beauteous Being
-Glory
+beauteous being
+glory
 extraordinary
-Paradise - 4
+paradise - 4
 summon
 grandeur
-Miraculous Exposition
+miraculous exposition
 wise
 infinite
 wisdom
-Divine unity
+divine unity
 sublimity - 5
 splendid
 proclamation
 unanimous
-eloquent
-testify
 munificence
 embroider
 vital
@@ -60,12 +57,12 @@ comprehensive
 attribute
 display
 wonder
-precluded - 7
+preclude - 7
 voyager
 supreme
 assent
 sacred
-people of misguidence
+people of misguidance
 opponent
 heed
 luminous
@@ -83,7 +80,6 @@ essence
 conscious
 depart
 concern
-proclaim
 worship
 incite
 refute
@@ -101,7 +97,6 @@ testimony
 condemn
 contradict
 devote
-beauteous
 veil
 vicegerency
 cruel - 12
@@ -123,7 +118,6 @@ specimen
 obscure
 deed
 ascribed
-sublime
 virtue - 14
 inherent
 scatter
@@ -136,7 +130,7 @@ instant - 15
 moral
 benefit
 obstinate
-esteemed
+esteem
 comparison
 striving
 voluntary
@@ -147,7 +141,7 @@ weep
 plunge
 ephemeral
 beneath
-smashed
+smash
 extreme
 eternal - 17
 mould
@@ -171,7 +165,6 @@ decept
 trickery
 fancy
 refuse
-hostile
 elevate - 20
 rival
 refine
@@ -238,7 +231,7 @@ sufficient
 angel - 28
 obligation
 proud
-evil-commanding soul
+evil commanding soul
 mystery
 grief
 relieve
@@ -276,7 +269,6 @@ requital
 anxious
 gratitude - 32
 conduct
-misguidance
 effulgence
 incontestable
 recall
@@ -297,7 +289,6 @@ oppress
 latter
 former
 tribunal
-fulfill
 transaction - 35
 separation
 herald

@@ -45,8 +45,6 @@ sublimity - 5
 splendid
 proclamation
 unanimous
-eloquent
-testify
 munificence
 embroider
 vital
@@ -82,7 +80,6 @@ essence
 conscious
 depart
 concern
-proclaim
 worship
 incite
 refute
