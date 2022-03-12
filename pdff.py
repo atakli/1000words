@@ -122,38 +122,49 @@ def isInThisInterval(baslangic_noktasi, word):
 		if finding >= baslangic_noktasi and finding < baslangic_noktasi + 2300:
 	"""
 	if list(find_all(text[baslangic_noktasi:baslangic_noktasi+2300], word)):	
-		return true
-	else
-		return false
+		return True
+	else:
+		return False
 		
 def icinde_mi(baslangic_noktasi, kombinasyon):
 	if isInThisInterval(baslangic_noktasi, kombinasyon[0]):
 		if len(kombinasyon) == 1:
-			return true
-		icinde_mi(baslangic_noktasi, kombinasyon[1:])
+			return True
+		return icinde_mi(baslangic_noktasi, kombinasyon[1:])
 	else:
-		return false
+		return False
 
 import random
 from itertools import combinations
 kombinasyonlar = [] # bu satır dahi lüzumsuz değil
-unused_words1 = random.choices(unused_words_new,k=10)
 def komb_yap(silinecek_item):
 	global kombinasyonlar
 	for sil in silinecek_item:
 		unused_words1.remove(sil)
 	kombinasyonlar = list(combinations(unused_words1, 4))
 komb_yap([])
-for komb in kombinasyonlar:
-	word = komb[0]
-	findings = list(find_all(text, word))
-	if findings:
-		for finding in findings:
-			if icinde_mi(finding, komb[1:]):
-				print("kombinasyon: ",komb)
-				print("index: ",finding)
-				print("word: ",word)
-				print('\n')
+sonuç = []
+döngü = 0
+while 1: 
+	try:
+		döngü += 1
+		unused_words1 = random.choices(unused_words_new,k=10)
+		#unused_words1 = ["diverse", "constant", "faith", "remedies"] 
+
+		for komb in kombinasyonlar:
+			word = komb[0]
+			findings = list(find_all(text, word))
+			if findings:
+				for finding in findings:
+					if icinde_mi(finding, komb[1:]):
+						print("kombinasyon: ",komb)
+						print("index: ",finding)
+						print("word: ",word)
+						print('\n')
+						sonuç.append((komb, finding, word))
+	except KeyboardInterrupt:
+		print(döngü,". döngü..", sep='')
+		print("sonuç: ", sonuç)
 findings = []
 for komb in kombinasyonlar[:10]:
 	for word in komb:
