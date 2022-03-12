@@ -33,6 +33,8 @@ for i in slash:
     if p > 1:
         print(i)
 """
+from pdfminer.high_level import extract_text
+text = extract_text("/home/b720/Desktop/1000words/collection/Signs+of+Miraculousness+-+Vahide.pdf")
 
 def find_all(a_str, sub):
     start = 0
@@ -41,9 +43,6 @@ def find_all(a_str, sub):
         if start == -1: return
         yield start
         start += len(sub) # use start += 1 to find overlapping matches
-
-from pdfminer.high_level import extract_text
-text = extract_text("/home/b720/Desktop/1000words/collection/Signs+of+Miraculousness+-+Vahide.pdf")
   
 with open("/home/b720/Desktop/1000words/1000 Words/1000words_kullanılanlar.txt") as dosya:
 	used_words = dosya.readlines()
@@ -136,19 +135,20 @@ def icinde_mi(baslangic_noktasi, kombinasyon):
 
 import random
 from itertools import combinations
+unused_words1 = unused_words1
 kombinasyonlar = [] # bu satır dahi lüzumsuz değil
 def komb_yap(silinecek_item):
-	global kombinasyonlar
+	global kombinasyonlar, unused_words1
 	for sil in silinecek_item:
 		unused_words1.remove(sil)
-	kombinasyonlar = list(combinations(unused_words1, 4))
+	#kombinasyonlar = list(combinations(unused_words1, 4))
 komb_yap([])
 sonuç = []
 döngü = 0
 while 1: 
 	try:
-		döngü += 1
-		unused_words1 = random.choices(unused_words_new,k=10)
+		döngü += 1														# /'ları kaldırmıştım!
+		unused_words1 = random.choices(unused_words_new,k=10)			# içinde / olan bi item seçilirse ne olacak?
 		#unused_words1 = ["diverse", "constant", "faith", "remedies"] 
 
 		for komb in kombinasyonlar:
@@ -161,6 +161,7 @@ while 1:
 						print("index: ",finding)
 						print("word: ",word)
 						print('\n')
+						komb_yap(komb)
 						sonuç.append((komb, finding, word))
 	except KeyboardInterrupt:
 		print(döngü,". döngü..", sep='')
