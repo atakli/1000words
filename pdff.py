@@ -144,9 +144,9 @@ def komb_yap(silinecek_item, toBeCombined=[]):
 			unused_words.remove(sil)
 		except ValueError:
 			for item in unused_words:
-				if item.find(sil) != -1:
+				if sil in item.split(' / '):
 					unused_words.remove(item)
-	kombinasyonlar = list(combinations(toBeCombined, 4))
+	kombinasyonlar = list(combinations(toBeCombined, 7))
 	return kombinasyonlar
 
 def choose(words, m):
@@ -159,6 +159,9 @@ def choose(words, m):
 
 sonuç = []
 döngü = 0
+bulgu = 0
+break_it = 0
+dosya = open("/home/b720/Desktop/1000words/results.txt",'w')
 while 1: 
 	try:
 		döngü += 1													
@@ -168,26 +171,28 @@ while 1:
 		kombinasyonlar = komb_yap([], unused_words1)
 		for komb in kombinasyonlar:
 			print("komb: ", komb)
-			print(döngü,". döngü..", sep='')
+			print(döngü,". döngü.."," ---> ", bulgu, sep='')
 			word = komb[0]
 			findings = list(find_all(text, word))
 			if findings:
 				for finding in findings:
 					if icinde_mi(finding, komb[1:]):
-						print("kombinasyon: ",komb)
-						print("index: ",finding)
-						print("word: ",word)
-						print('\n')
+						bulgu += 1
+						print("kombinasyon: ",komb, file=dosya, flush=True)
+						print("index: ",finding, file=dosya, flush=True)
+						print('\n', file=dosya, flush=True)
 						komb_yap(komb)
 						sonuç.append((komb, finding, word))
+						break_it = 1
+						break
+			if break_it == 1:
+				break_it = 0
+				break
 	except KeyboardInterrupt:
 		print(döngü,". döngü..", sep='')
 		print("sonuç: ", sonuç)
 		break
-findings = []
-for komb in kombinasyonlar[:10]:
-	for word in komb:
-		findings += list(find_all(text, word))
+dosya.close()
 
 
 
