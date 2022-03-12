@@ -135,23 +135,40 @@ def icinde_mi(baslangic_noktasi, kombinasyon):
 
 import random
 from itertools import combinations
-unused_words1 = unused_words1
-kombinasyonlar = [] # bu satır dahi lüzumsuz değil
-def komb_yap(silinecek_item):
-	global kombinasyonlar, unused_words1
+#unused_words1 = unused_words1
+#kombinasyonlar = [] # bu satır dahi lüzumsuz değil
+def komb_yap(silinecek_item, toBeCombined=[]):
+	global unused_words
 	for sil in silinecek_item:
-		unused_words1.remove(sil)
-	#kombinasyonlar = list(combinations(unused_words1, 4))
-komb_yap([])
+		try:
+			unused_words.remove(sil)
+		except ValueError:
+			for item in unused_words:
+				if item.find(sil) != -1:
+					unused_words.remove(item)
+	kombinasyonlar = list(combinations(toBeCombined, 4))
+	return kombinasyonlar
+
+def choose(words, m):
+	words_new = random.choices(words,k=m)
+	for index, word in enumerate(words_new):
+		if '/' in word:
+			words_new[index] = random.choice(word.split(' / '))
+	return words_new
+	
+
 sonuç = []
 döngü = 0
 while 1: 
 	try:
-		döngü += 1														# /'ları kaldırmıştım!
-		unused_words1 = random.choices(unused_words_new,k=10)			# içinde / olan bi item seçilirse ne olacak?
+		döngü += 1													
+		unused_words1 = choose(unused_words, 10)			
 		#unused_words1 = ["diverse", "constant", "faith", "remedies"] 
-
+		print("unused_words1: ", unused_words1)
+		kombinasyonlar = komb_yap([], unused_words1)
 		for komb in kombinasyonlar:
+			print("komb: ", komb)
+			print(döngü,". döngü..", sep='')
 			word = komb[0]
 			findings = list(find_all(text, word))
 			if findings:
@@ -166,6 +183,7 @@ while 1:
 	except KeyboardInterrupt:
 		print(döngü,". döngü..", sep='')
 		print("sonuç: ", sonuç)
+		break
 findings = []
 for komb in kombinasyonlar[:10]:
 	for word in komb:
