@@ -13,6 +13,13 @@ from PyPDF4.pdf import PdfFileReader
 reader = PdfFileReader(open(risale, "rb"))
 print(reader.numPages)
 
+In [19]: print(len(used_words))
+    ...: print(len(unused_words))
+    ...: print(len(all_words))
+    ...: print(len(used_words) + len(unused_words))
+    ...: print(len(all_words) - len(used_words) - len(unused_words))
+
+
 """
 slash = []				# kalan eksikleri burası sayesinde buldum. meğer "bu satırdakilerden sadece birini kullan" dediklerimizden birden fazlasını kullanmışız
 for i in all_words:
@@ -26,8 +33,6 @@ for i in slash:
     if p > 1:
         print(i)
 """
-
-from pdfminer.high_level import extract_text
 
 def find_all(a_str, sub):
     start = 0
@@ -64,14 +69,8 @@ all_words_new = []
 for word in all_words:
 	if '/' in word:
 		all_words_new += word.split(' / ')
-	all_words_new.append(word)			# / olanlar ayrıldı
-"""
-unused_words_new1 = []
-for word in unused_words:
-	if '/' in word:
-		unused_words_new1 += word.split(' / ')
-	unused_words_new1.append(word)
-"""
+	else:
+		all_words_new.append(word)			# / olanlar ayrıldı
 
 unused_words = []
 for word in all_words:
@@ -94,6 +93,13 @@ for word in unused_words:
 	unused_words_new.append(word + '\n')
 with open('/home/b720/Desktop/1000words/1000 Words/kullanılmamış_kelimeler.txt','w') as file:
 	file.writelines(unused_words_new)
+	
+unused_words_new = []
+for word in unused_words:
+	if '/' in word:
+		unused_words_new += word.split(' / ')
+	else:
+		unused_words_new.append(word)			# / olanlar ayrıldı
 """		
 noluyor = []
 for i in used_words:
@@ -108,25 +114,46 @@ for i in unused_words:
 		noluyor.append(i)
 print(*noluyor,sep='\n')
 """
+def isInThisInterval(baslangic_noktasi, word):
+	global text
+	"""
+	findings = list(find_all(text, word))
+	for finding in findings:
+		if finding >= baslangic_noktasi and finding < baslangic_noktasi + 2300:
+	"""
+	if list(find_all(text[baslangic_noktasi:baslangic_noktasi+2300], word)):	
+		return true
+	else
+		return false
+		
 def icinde_mi(baslangic_noktasi, kombinasyon):
-	if  in (baslangic_noktasi + 2300)
-	return 
+	if isInThisInterval(baslangic_noktasi, kombinasyon[0]):
+		if len(kombinasyon) == 1:
+			return true
+		icinde_mi(baslangic_noktasi, kombinasyon[1:])
+	else:
+		return false
 
-
+import random
 from itertools import combinations
-kombinasyonlar = []
-unused_words1 = unused_words
+kombinasyonlar = [] # bu satır dahi lüzumsuz değil
+unused_words1 = random.choices(unused_words_new,k=10)
 def komb_yap(silinecek_item):
+	global kombinasyonlar
 	for sil in silinecek_item:
 		unused_words1.remove(sil)
 	kombinasyonlar = list(combinations(unused_words1, 4))
 komb_yap([])
 for komb in kombinasyonlar:
-	for word in komb:
-		findings = list(find_all(text, word))
-		if findings:
-			for finding in findings:
-				icinde_mi(finding, komb)
+	word = komb[0]
+	findings = list(find_all(text, word))
+	if findings:
+		for finding in findings:
+			if icinde_mi(finding, komb[1:]):
+				print("kombinasyon: ",komb)
+				print("index: ",finding)
+				print("word: ",word)
+				print('\n')
 findings = []
 for komb in kombinasyonlar[:10]:
 	for word in komb:
