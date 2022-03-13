@@ -4,6 +4,14 @@ with open('/home/b720/Desktop/1000words/1000 Words/kullanılmamış_kelimeler.tx
 from pdfminer.high_level import extract_text
 text = extract_text("/home/b720/Desktop/1000words/collection/Signs+of+Miraculousness+-+Vahide.pdf")
 	
+def find_all(a_str, sub):
+    start = 0
+    while True:
+        start = a_str.find(sub, start)
+        if start == -1: return
+        yield start
+        start += len(sub) # use start += 1 to find overlapping matches	
+
 def isInThisInterval(baslangic_noktasi, word):
 	global text
 	if list(find_all(text[baslangic_noktasi:baslangic_noktasi+2300], word)):	
@@ -47,7 +55,7 @@ sonuç = []
 döngü = 0
 bulgu = 0
 break_it = 0
-dosya = open("/home/b720/Desktop/1000words/results.txt",'w+a')
+dosya = open("/home/b720/Desktop/1000words/results.txt",'w+a') # w+a doğru olmayabilir
 while 1: 
 	try:
 		döngü += 1													

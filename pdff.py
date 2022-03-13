@@ -33,14 +33,6 @@ for i in slash:
     if p > 1:
         print(i)
 """
-
-def find_all(a_str, sub):
-    start = 0
-    while True:
-        start = a_str.find(sub, start)
-        if start == -1: return
-        yield start
-        start += len(sub) # use start += 1 to find overlapping matches
   
 with open("/home/b720/Desktop/1000words/1000 Words/1000words_kullanılanlar.txt") as dosya:
 	used_words = dosya.readlines()
