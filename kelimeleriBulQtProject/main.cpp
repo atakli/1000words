@@ -42,7 +42,7 @@ QStringList sonuclar;
 int dongu = 0;
 int bulgu = 0;
 
-void signal_callback_handler(int signum)
+/*void signal_callback_handler(int signum)
 {
     QString print = QString::number(dongu) + ". döngü.. ---> " + QString::number(bulgu);
     std::cout << print.toStdString() << std::endl;
@@ -51,8 +51,8 @@ void signal_callback_handler(int signum)
 //        std::cout << sonuc.toStdString() << ' ';
     // Terminate program
     //   exit(signum);
-}
-QVector<int> find_all(QString a_str, QString sub)
+}*/
+QVector<int> find_all(const QString &a_str, QString sub)
 {
     int start = 0;
     QVector<int> allOccurrences;
@@ -69,14 +69,14 @@ QVector<int> find_all(QString a_str, QString sub)
         start += sub.length(); // use start += 1 to find overlapping matches
     }
 }
-bool isInThisInterval(int baslangic_noktasi, QString word, QString text)
+bool isInThisInterval(int baslangic_noktasi, QString word, const QString& text)
 {
     if (find_all(text.mid(baslangic_noktasi, 2300), word).isEmpty())
         return false;
     else
         return true;
 }
-bool icinde_mi(int baslangic_noktasi, QStringList kombinasyon, QString text)
+bool icinde_mi(int baslangic_noktasi, QStringList kombinasyon, const QString& text)
 {
     if (isInThisInterval(baslangic_noktasi, kombinasyon[0], text))
     {
@@ -135,7 +135,7 @@ void trimTheList(QStringList silinecek_item)
     }
 }
 
-QStringList excludeForAMoment(QStringList words, QStringList silinecek_item)
+QStringList excludeForAMoment(const QStringList& words, QStringList silinecek_item)
 {
 	QStringList words_new = words;
     for (const QString& sil : silinecek_item)
@@ -194,7 +194,7 @@ void esas(QStringList kombinasyon, uint8_t num)
 
 int main(int argc, char *argv[])
 {
-	signal(SIGINT, signal_callback_handler);
+//	signal(SIGINT, signal_callback_handler);
 
     unused_words.pop_back();										// TODO: ??????????????? Bu ne saçmalık
 
@@ -237,7 +237,9 @@ int main(int argc, char *argv[])
 		future1.waitForFinished();
 		future2.waitForFinished();
 		future3.waitForFinished();
-//		future4.waitForFinished();
+        future4.waitForFinished();
+        future5.waitForFinished();
+        future6.waitForFinished();
 
     }
     file.close();
