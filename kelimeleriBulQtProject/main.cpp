@@ -25,7 +25,7 @@ QString base = "/home/b720/Desktop/1000words";
 QString base = "..";
 #endif
 
-QStringList unused_words = dosyayiAc(base + "/1000 Words/1000words_kullanılmamış_kelimeler (copy).txt").split('\n');
+QStringList unused_words = dosyayiAc(base + "/1000 Words/kullanılmamışlar.txt").split('\n');
 QString signs = dosyayiAc(base + "/collection/signs.txt");
 QString words = dosyayiAc(base + "/collection/words.txt");
 QString letters = dosyayiAc(base + "/collection/letters.txt");
@@ -80,6 +80,7 @@ bool icinde_mi(int baslangic_noktasi, QStringList kombinasyon, QString text)
 {
     if (isInThisInterval(baslangic_noktasi, kombinasyon[0], text))
     {
+
         if (kombinasyon.length() == 1)
             return true;
         return icinde_mi(baslangic_noktasi, kombinasyon.mid(1), text);
@@ -122,29 +123,27 @@ QStringList choose(QStringList words, uint8_t sizeOfGroup)
 //from itertools import combinations;
 void trimTheList(QStringList silinecek_item)
 {
-    for (auto sil : silinecek_item)
+    for (const QString& sil : silinecek_item)
     {
         bool silindiMi = unused_words.removeOne(sil);
         if (!silindiMi)
         {
-            for (auto item : unused_words)
+            for (const QString& item : unused_words)
                 if (item.split(" / ").contains(sil))
                     unused_words.removeOne(item);
         }
     }
-    // kombinasyonlar = list(combinations(toBeCombined, 7))
-    // return kombinasyonlar
 }
 
 QStringList excludeForAMoment(QStringList words, QStringList silinecek_item)
 {
 	QStringList words_new = words;
-	for (QString sil : silinecek_item)
+    for (const QString& sil : silinecek_item)
 	{
 		bool silindiMi = words_new.removeOne(sil);
 		if (!silindiMi)
 		{
-			for (QString item : words_new)
+            for (const QString& item : words_new)
 				if (item.split(" / ").contains(sil))
 					words_new.removeOne(item);
 		}
@@ -159,7 +158,8 @@ void esas(QStringList kombinasyon, uint8_t num)
 	{
 		kitap += 1;
 		QString word = kombinasyon.at(0);
-		QVector<int> findings = find_all(*text, word);
+        QVector<int> findings = find_all(*text, word);
+//        int son_kelime_index = *std::max_element(findings.begin(), findings.end());
 		if (!findings.isEmpty())
 		{
 			for (int finding : findings)
@@ -167,14 +167,14 @@ void esas(QStringList kombinasyon, uint8_t num)
 				if (icinde_mi(finding, kombinasyon.mid(1), *text))
 				{
 					bulgu += 1;
-					stream << QString::number(kitap) << ": " << text->mid(finding,33);
-					stream << "\nkombinasyon: ";
-					for (QString komb : kombinasyon)
-					{
-						stream << komb << " ";
-					}
-					stream << "\nson kelime: " << text->mid(finding+2300-33,33);
-					stream << "\n" << num << " - index: " << QString::number(finding) << "\n";
+                    stream << "\nkombinasyon: ";
+                    for (const QString &komb : kombinasyon)
+                    {
+                        stream << komb << " ";
+                    }
+                    stream << "\nmetin: " << text->mid(finding,2300);
+//                    stream << "\nson part: " << text->mid(son_kelime_index,33);
+                    stream << "\nkitap: " << QString::number(kitap) << " - thread: " << num << " - index: " << finding << "\n";
 					stream << "--------------------------------------------------------------------------------------------\n\n";
 					stream.flush();
 					trimTheList(kombinasyon);
@@ -186,8 +186,7 @@ void esas(QStringList kombinasyon, uint8_t num)
 			}
 		}
 		if (break_it)
-		{
-			break_it = false;
+        {
 			break;
 		}
 	}
