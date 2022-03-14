@@ -9,7 +9,7 @@
 #include <QTextStream>
 //#include <QDebug>
 //#include <QPdf>
-
+// 37 ve 38'de ekstra kelimeler bulunabilir pek bakmadım
 QString dosyayiAc(QString fileName, QIODevice::OpenModeFlag flag=QIODevice::ReadOnly)
 {
     QFile file(fileName);
@@ -26,12 +26,12 @@ QString base = "..";
 #endif
 
 QStringList unused_words = dosyayiAc(base + "/1000 Words/kullanılmamışlar.txt").split('\n');
-QString signs = dosyayiAc(base + "/collection/signs.txt");
-QString words = dosyayiAc(base + "/collection/words.txt");
-QString letters = dosyayiAc(base + "/collection/letters.txt");
-QString flashes = dosyayiAc(base + "/collection/flashes.txt");
-QString rays = dosyayiAc(base + "/collection/rays.txt");
-QString muhakemat = dosyayiAc(base + "/collection/muhakemat.txt");
+QString signs = dosyayiAc(base + "/collection/signs.txt").replace("-\n"," ");		// TODO: self-exlanatory gibi olanları sacrifice ettim şimdilik.
+QString words = dosyayiAc(base + "/collection/words.txt").replace("-\n"," ");
+QString letters = dosyayiAc(base + "/collection/letters.txt").replace("-\n"," ");
+QString flashes = dosyayiAc(base + "/collection/flashes.txt").replace("-\n"," ");
+QString rays = dosyayiAc(base + "/collection/rays.txt").replace("-\n"," ");
+QString muhakemat = dosyayiAc(base + "/collection/muhakemat.txt").replace("-\n"," ");
 auto kitaplar = {&words, &flashes, &letters, &rays, &signs, &muhakemat};
 
 QFile file(base + "/results1.txt");
@@ -172,9 +172,9 @@ void esas(QStringList kombinasyon, uint8_t num)
                     {
                         stream << komb << " ";
                     }
-                    stream << "\nmetin: " << text->mid(finding,2300);
+					stream << "\nkitap: " << QString::number(kitap) << " - thread: " << num << " - index: " << finding << "\n";
+					stream << "\nMetin:\n" << text->mid(finding,2300).replace("\n", " ") << "\n";
 //                    stream << "\nson part: " << text->mid(son_kelime_index,33);
-                    stream << "\nkitap: " << QString::number(kitap) << " - thread: " << num << " - index: " << finding << "\n";
 					stream << "--------------------------------------------------------------------------------------------\n\n";
 					stream.flush();
 					trimTheList(kombinasyon);

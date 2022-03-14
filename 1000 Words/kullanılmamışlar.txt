@@ -43,7 +43,6 @@ astray
 authorit
 await
 baseless / base
-bearer
 belief / disbelief / disbelieve
 beloved
 beneficial
@@ -68,7 +67,6 @@ compound
 confide
 confine
 confirm
-confusion
 congratulate
 congregate
 conquer
@@ -108,7 +106,6 @@ defence
 define
 definite
 delicious
-delight
 delusion
 demonstrate
 denial / denier
@@ -183,7 +180,6 @@ excite
 exclaim
 execute
 exhibit
-exist
 expand
 expanse
 expend
@@ -196,7 +192,6 @@ extensive
 external
 extinction
 extinguish
-extol
 extract
 faculty
 falsehood
@@ -229,7 +224,6 @@ force
 forefather
 foretell
 forgive
-form
 foundation
 fragment
 freedom
@@ -359,7 +353,6 @@ judge / judgement
 judicial / judiciary / judicature
 kingdom / kingly / king
 labour
-lament
 layer
 liberality / liberation / liberty / libertarianism
 licit / illicit
@@ -370,7 +363,6 @@ literary / literate
 livelihood
 loath / loathsome / loathsomeness
 lodge
-lovable / loveliness / love / lover
 loyal
 lunacy
 lunatic
@@ -382,7 +374,6 @@ malice / malicious
 mankind
 manoeuvre / manoeuver
 mansion
-manufacture
 martyr / martyrdom
 marvel / marvellous
 master / masterly / mastery
@@ -413,7 +404,6 @@ needy
 nightingale
 noble / nobly / nobility
 nonsense / nonsensical
-null / nullify
 obdurate / obduracy
 obey
 observation / observant / observably / observe / observatory / observance
@@ -605,7 +595,6 @@ torture
 trace
 tranquil
 transgress
-transitory
 transmission / transmit
 traverse
 treachery
@@ -620,7 +609,6 @@ troop
 trustworthy
 truthfulness
 tumult
-twig
 unanimity
 unbelief
 unbiased
