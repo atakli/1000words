@@ -3,6 +3,7 @@
 //#include <unistd.h>
 //#include <cstdlib>
 #include <iostream>
+#include <QtConcurrent/QtConcurrent>
 #include <QRandomGenerator>
 #include <QElapsedTimer>
 #include <QTextStream>
@@ -20,13 +21,19 @@ QString dosyayiAc(QString fileName, QIODevice::OpenModeFlag flag=QIODevice::Read
 }
 
 QStringList unused_words = dosyayiAc("/home/b720/Desktop/1000words/1000 Words/1000words_kullanılmamış_kelimeler (copy).txt").split('\n');
-QString text = dosyayiAc("/home/b720/Desktop/1000words/collection/signs.txt");
+QString signs = dosyayiAc("/home/b720/Desktop/1000words/collection/signs.txt");
 QString words = dosyayiAc("/home/b720/Desktop/1000words/collection/words.txt");
 QString letters = dosyayiAc("/home/b720/Desktop/1000words/collection/letters.txt");
 QString flashes = dosyayiAc("/home/b720/Desktop/1000words/collection/flashes.txt");
 QString rays = dosyayiAc("/home/b720/Desktop/1000words/collection/rays.txt");
+auto kitaplar = {&words, &flashes, &letters, &rays, &signs};
+
+QFile file("/home/b720/Desktop/1000words/results1.txt");
+QTextStream stream(&file);
+
 //QString &text = words;
 QStringList sonuclar;
+
 int dongu = 0;
 int bulgu = 0;
 
@@ -34,9 +41,9 @@ void signal_callback_handler(int signum)
 {
     QString print = QString::number(dongu) + ". döngü.. ---> " + QString::number(bulgu);
     std::cout << print.toStdString() << std::endl;
-    std::cout << "Sonuc: ";
-    for (auto sonuc : sonuclar)
-        std::cout << sonuc.toStdString() << ' ';
+//    std::cout << "Sonuc: ";
+//    for (auto sonuc : sonuclar)
+//        std::cout << sonuc.toStdString() << ' ';
     // Terminate program
     //   exit(signum);
 }
@@ -46,10 +53,12 @@ QVector<int> find_all(QString a_str, QString sub)
     QVector<int> allOccurrences;
     while(1)
     {
-        start = a_str.indexOf(sub, start);
+		start = a_str.indexOf(" " + sub, start);
 //        std::cout << "start: " << start << '\n';
 //        std::cout << "sub.length(): " << sub.length() << '\n';
-        if (start == -1)
+		if (start == -1)
+			start = a_str.indexOf("\n" + sub, start);			// TODO: burda sıkıntı olabilir. -1 meselesi
+		if (start == -1)
             return allOccurrences;
         allOccurrences.append(start);
         start += sub.length(); // use start += 1 to find overlapping matches
@@ -106,7 +115,7 @@ QStringList choose(QStringList words, uint8_t sizeOfGroup)
     return words_new;
 }
 //from itertools import combinations;
-void trimTheList(QStringList silinecek_item/*, QStringList toBeCombined={}*/)
+void trimTheList(QStringList silinecek_item)
 {
     for (auto sil : silinecek_item)
     {
@@ -122,19 +131,74 @@ void trimTheList(QStringList silinecek_item/*, QStringList toBeCombined={}*/)
     // return kombinasyonlar
 }
 
+QStringList excludeForAMoment(QStringList words, QStringList silinecek_item)
+{
+	QStringList words_new = words;
+	for (QString sil : silinecek_item)
+	{
+		bool silindiMi = words_new.removeOne(sil);
+		if (!silindiMi)
+		{
+			for (QString item : words_new)
+				if (item.split(" / ").contains(sil))
+					words_new.removeOne(item);
+		}
+	}
+	return words_new;
+}
+void esas(QStringList kombinasyon, uint8_t num)
+{
+	uint8_t kitap = 0;
+	bool break_it = false;
+	for (auto text : kitaplar)
+	{
+		kitap += 1;
+		QString word = kombinasyon.at(0);
+		QVector<int> findings = find_all(*text, word);
+		if (!findings.isEmpty())
+		{
+			for (int finding : findings)
+			{
+				if (icinde_mi(finding, kombinasyon.mid(1), *text))
+				{
+					bulgu += 1;
+					stream << QString::number(kitap) << ": " << text->mid(finding,33);
+					stream << "\nkombinasyon: ";
+					for (QString komb : kombinasyon)
+					{
+						stream << komb << " ";
+					}
+					stream << "\nson kelime: " << text->mid(finding+2300-33,33);
+					stream << "\n" << num << " - index: " << QString::number(finding) << "\n";
+					stream << "--------------------------------------------------------------------------------------------\n\n";
+					stream.flush();
+					trimTheList(kombinasyon);
+					break_it = true;
+//					sonuclar.append(kombinasyon);
+//					sonuclar.append(QString::number(finding));
+					break;
+				}
+			}
+		}
+		if (break_it)
+		{
+			break_it = false;
+			break;
+		}
+	}
+}
+
 int main(int argc, char *argv[])
 {
 	signal(SIGINT, signal_callback_handler);
 
-    unused_words.pop_back();
+	unused_words.pop_back();										// TODO: ??????????????? BU ne saçmalık
+
+	if (!file.open(QIODevice::Append | QIODevice::Text))
+		return 2;
 
 //    QElapsedTimer timer1;
 //    QElapsedTimer timer2;
-
-    QFile file("/home/b720/Desktop/1000words/results1.txt");
-    if (!file.open(QIODevice::Append | QIODevice::Text))
-        return 2;
-    QTextStream stream(&file);
 
     int groupNumber;
     if (QString(argv[1]) == "")
@@ -142,37 +206,29 @@ int main(int argc, char *argv[])
     else
         groupNumber = QString(argv[1]).toInt();
 //    timer1.start();
+
     while (1)
     {
 //        timer2.start();
-//        std::cout << dongu << ". döngü.." << " ---> " << bulgu << '\n';
         dongu += 1;
-        QStringList kombinasyon = choose(unused_words, groupNumber);
-        QString word = kombinasyon.at(0);
-        QVector<int> findings = find_all(text, word);
-        if (!findings.isEmpty())
-        {
-            for (int finding : findings)
-            {
-                if (icinde_mi(finding, kombinasyon.mid(1), text))
-                {
-					bulgu += 1;
-                    stream << "kombinasyon: ";
-                    for (QString komb : kombinasyon)
-                    {
-                        stream << komb.toStdString().c_str() << " ";
-                    }
-                    stream << "\nindex: " << std::to_string(finding).c_str() << "\n\n";
-                    stream.flush();
-                    trimTheList(kombinasyon);
-                    sonuclar.append(kombinasyon);
-                    sonuclar.append(QString::number(finding));
-                    break;
-                }
-            }
-        }
-//        std::cout << "ortalama sure: " << timer1.nsecsElapsed() / dongu << '\n';
-//        std::cout << "dongu basina sure: " << timer2.nsecsElapsed() << '\n';
+		QStringList kombinasyon1 = choose(unused_words, groupNumber);
+		QStringList unusedwords_new = excludeForAMoment(unused_words, kombinasyon1);
+		QStringList kombinasyon2 = choose(unusedwords_new, groupNumber);
+		unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon2);
+		QStringList kombinasyon3 = choose(unusedwords_new, groupNumber);
+//		unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon3);
+//		QStringList kombinasyon4 = choose(unusedwords_new, groupNumber);
+
+		QFuture<void> future1 = QtConcurrent::run(esas, kombinasyon1, 1);
+		QFuture<void> future2 = QtConcurrent::run(esas, kombinasyon2, 2);
+		QFuture<void> future3 = QtConcurrent::run(esas, kombinasyon3, 3);
+//		QFuture<void> future4 = QtConcurrent::run(esas, kombinasyon4, 4);
+
+		future1.waitForFinished();
+		future2.waitForFinished();
+		future3.waitForFinished();
+//		future4.waitForFinished();
+
     }
     file.close();
 
