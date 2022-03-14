@@ -19,19 +19,24 @@ QString dosyayiAc(QString fileName, QIODevice::OpenModeFlag flag=QIODevice::Read
     file.close();
     return text;
 }
+#if 0
+QString base = "/home/b720/Desktop/1000words";
+#else
+QString base = "..";
+#endif
 
-QStringList unused_words = dosyayiAc("/home/b720/Desktop/1000words/1000 Words/1000words_kullanılmamış_kelimeler (copy).txt").split('\n');
-QString signs = dosyayiAc("/home/b720/Desktop/1000words/collection/signs.txt");
-QString words = dosyayiAc("/home/b720/Desktop/1000words/collection/words.txt");
-QString letters = dosyayiAc("/home/b720/Desktop/1000words/collection/letters.txt");
-QString flashes = dosyayiAc("/home/b720/Desktop/1000words/collection/flashes.txt");
-QString rays = dosyayiAc("/home/b720/Desktop/1000words/collection/rays.txt");
-auto kitaplar = {&words, &flashes, &letters, &rays, &signs};
+QStringList unused_words = dosyayiAc(base + "/1000 Words/1000words_kullanılmamış_kelimeler (copy).txt").split('\n');
+QString signs = dosyayiAc(base + "/collection/signs.txt");
+QString words = dosyayiAc(base + "/collection/words.txt");
+QString letters = dosyayiAc(base + "/collection/letters.txt");
+QString flashes = dosyayiAc(base + "/collection/flashes.txt");
+QString rays = dosyayiAc(base + "/collection/rays.txt");
+QString muhakemat = dosyayiAc(base + "/collection/muhakemat.txt");
+auto kitaplar = {&words, &flashes, &letters, &rays, &signs, &muhakemat};
 
-QFile file("/home/b720/Desktop/1000words/results1.txt");
+QFile file(base + "/results1.txt");
 QTextStream stream(&file);
 
-//QString &text = words;
 QStringList sonuclar;
 
 int dongu = 0;
@@ -192,7 +197,7 @@ int main(int argc, char *argv[])
 {
 	signal(SIGINT, signal_callback_handler);
 
-	unused_words.pop_back();										// TODO: ??????????????? BU ne saçmalık
+    unused_words.pop_back();										// TODO: ??????????????? Bu ne saçmalık
 
 	if (!file.open(QIODevice::Append | QIODevice::Text))
 		return 2;
@@ -216,13 +221,19 @@ int main(int argc, char *argv[])
 		QStringList kombinasyon2 = choose(unusedwords_new, groupNumber);
 		unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon2);
 		QStringList kombinasyon3 = choose(unusedwords_new, groupNumber);
-//		unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon3);
-//		QStringList kombinasyon4 = choose(unusedwords_new, groupNumber);
+        unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon3);
+        QStringList kombinasyon4 = choose(unusedwords_new, groupNumber);
+        unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon4);
+        QStringList kombinasyon5 = choose(unusedwords_new, groupNumber);
+        unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon5);
+        QStringList kombinasyon6 = choose(unusedwords_new, groupNumber);
 
 		QFuture<void> future1 = QtConcurrent::run(esas, kombinasyon1, 1);
 		QFuture<void> future2 = QtConcurrent::run(esas, kombinasyon2, 2);
 		QFuture<void> future3 = QtConcurrent::run(esas, kombinasyon3, 3);
-//		QFuture<void> future4 = QtConcurrent::run(esas, kombinasyon4, 4);
+        QFuture<void> future4 = QtConcurrent::run(esas, kombinasyon4, 4);
+        QFuture<void> future5 = QtConcurrent::run(esas, kombinasyon5, 5);
+        QFuture<void> future6 = QtConcurrent::run(esas, kombinasyon6, 6);
 
 		future1.waitForFinished();
 		future2.waitForFinished();

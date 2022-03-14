@@ -1,6 +1,8 @@
 #from pdfminer.high_level import extract_text
 #text = extract_text("/home/b720/Desktop/1000words/collection/Signs+of+Miraculousness+-+Vahide.pdf")
 
+# pip install pdfminer.six
+
 with open('/home/b720/Desktop/1000words/1000 Words/kullanılmamış_kelimeler.txt') as dosya:
 	unused_words1 = dosya.readlines()
 unused_words = []
