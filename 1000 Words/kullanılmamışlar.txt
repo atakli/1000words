@@ -40,7 +40,6 @@ assault
 assembly
 astonish
 astray
-authorit
 await
 baseless / base
 belief / disbelief / disbelieve
@@ -60,7 +59,6 @@ civilization
 coincide
 collective personality
 commentary
-commit
 community
 companion
 compound
@@ -84,7 +82,6 @@ corpuscle
 correspond
 corroborate
 course
-court
 covert
 craftsman
 creation
@@ -94,10 +91,8 @@ criminal
 criticism
 criticize
 crop
-crush
 cure
 darkness
-deceive
 decisive
 decree
 deduce
@@ -106,7 +101,6 @@ defence
 define
 definite
 delicious
-delusion
 demonstrate
 denial / denier
 denote
@@ -150,7 +144,6 @@ dungeon
 earthquake
 ecstasy
 ecstatic
-efforts
 ego
 eid
 element
@@ -220,7 +213,6 @@ fluid
 foe
 fold
 forbear
-force
 forefather
 foretell
 forgive
@@ -232,7 +224,6 @@ frugal
 fruitful
 fundamental
 furnish
-garment
 generate
 generosity
 genius
@@ -371,7 +362,6 @@ macrocosm
 magnificent / magnify / magnificence / magnification
 majestic
 malice / malicious
-mankind
 manoeuvre / manoeuver
 mansion
 martyr / martyrdom
@@ -394,7 +384,6 @@ mischief
 missive
 mobilize / mobilization / demobilize
 mock
-modest
 monster
 morale
 mourn
@@ -407,7 +396,6 @@ nonsense / nonsensical
 obdurate / obduracy
 obey
 observation / observant / observably / observe / observatory / observance
-obtain
 occasion
 occupy / occupation
 odd
@@ -503,7 +491,6 @@ riddle
 rotation
 rout
 royal
-ruler / rulership
 salutation / salute
 salvation
 satan
@@ -584,7 +571,6 @@ temperament
 tempest / tempestuous
 temporary
 tender
-tenet
 terrify
 theologians
 theoretical

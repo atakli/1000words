@@ -19,19 +19,20 @@ QString dosyayiAc(QString fileName, QIODevice::OpenModeFlag flag=QIODevice::Read
     file.close();
     return text;
 }
-#if 0
+#if 1
 QString base = "/home/b720/Desktop/1000words";
 #else
-QString base = "..";
+QString base = "../..";																				// TODO: neden olmadı
 #endif
 
 QStringList unused_words = dosyayiAc(base + "/1000 Words/kullanılmamışlar.txt").split('\n');
-QString signs = dosyayiAc(base + "/collection/signs.txt").replace("-\n"," ");		// TODO: self-exlanatory gibi olanları sacrifice ettim şimdilik.
-QString words = dosyayiAc(base + "/collection/words.txt").replace("-\n"," ");
-QString letters = dosyayiAc(base + "/collection/letters.txt").replace("-\n"," ");
-QString flashes = dosyayiAc(base + "/collection/flashes.txt").replace("-\n"," ");
-QString rays = dosyayiAc(base + "/collection/rays.txt").replace("-\n"," ");
-QString muhakemat = dosyayiAc(base + "/collection/muhakemat.txt").replace("-\n"," ");
+// TODO: self-exlanatory gibi olanları sacrifice ettim şimdilik. yani o selfexlanatory haline geldi
+QString signs = dosyayiAc(base + "/collection/signs.txt").replace("-\n"," ").replace("\n"," ").replace("  "," ");
+QString words = dosyayiAc(base + "/collection/words.txt").replace("-\n"," ").replace("\n"," ").replace("  "," ");
+QString letters = dosyayiAc(base + "/collection/letters.txt").replace("-\n"," ").replace("\n"," ").replace("  "," ");
+QString flashes = dosyayiAc(base + "/collection/flashes.txt").replace("-\n"," ").replace("\n"," ").replace("  "," ");
+QString rays = dosyayiAc(base + "/collection/rays.txt").replace("-\n"," ").replace("\n"," ").replace("  "," ");
+QString muhakemat = dosyayiAc(base + "/collection/muhakemat.txt").replace("-\n"," ").replace("\n"," ").replace("  "," ");
 auto kitaplar = {&words, &flashes, &letters, &rays, &signs, &muhakemat};
 
 QFile file(base + "/results1.txt");
@@ -39,8 +40,8 @@ QTextStream stream(&file);
 
 QStringList sonuclar;
 
-int dongu = 0;
-int bulgu = 0;
+//int dongu = 0;
+//int bulgu = 0;
 
 /*void signal_callback_handler(int signum)
 {
@@ -109,6 +110,8 @@ QStringList choices(QStringList words, uint8_t sizeOfGroup)
 }
 QStringList choose(QStringList words, uint8_t sizeOfGroup)
 {
+//	QStringList unusedwords_new = excludeForAMoment(unused_words, kombinasyon1);
+
     QStringList words_new = choices(words, sizeOfGroup);
 
     for(int index=0; index<words_new.length(); ++index)
@@ -120,7 +123,6 @@ QStringList choose(QStringList words, uint8_t sizeOfGroup)
         }
     return words_new;
 }
-//from itertools import combinations;
 void trimTheList(QStringList silinecek_item)
 {
     for (const QString& sil : silinecek_item)
@@ -166,7 +168,7 @@ void esas(QStringList kombinasyon, uint8_t num)
 			{
 				if (icinde_mi(finding, kombinasyon.mid(1), *text))
 				{
-					bulgu += 1;
+//					bulgu += 1;
                     stream << "\nkombinasyon: ";
                     for (const QString &komb : kombinasyon)
                     {
@@ -214,7 +216,7 @@ int main(int argc, char *argv[])
     while (1)
     {
 //        timer2.start();
-        dongu += 1;
+//        dongu += 1;
 		QStringList kombinasyon1 = choose(unused_words, groupNumber);
 		QStringList unusedwords_new = excludeForAMoment(unused_words, kombinasyon1);
 		QStringList kombinasyon2 = choose(unusedwords_new, groupNumber);
@@ -226,23 +228,45 @@ int main(int argc, char *argv[])
         QStringList kombinasyon5 = choose(unusedwords_new, groupNumber);
         unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon5);
         QStringList kombinasyon6 = choose(unusedwords_new, groupNumber);
+		unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon6);
+		QStringList kombinasyon7 = choose(unusedwords_new, groupNumber);
+		unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon7);
+		QStringList kombinasyon8 = choose(unusedwords_new, groupNumber);
+		unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon8);
+		QStringList kombinasyon9 = choose(unusedwords_new, groupNumber);
+		unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon9);
+		QStringList kombinasyon10 = choose(unusedwords_new, groupNumber);
+
 
 		QFuture<void> future1 = QtConcurrent::run(esas, kombinasyon1, 1);
 		QFuture<void> future2 = QtConcurrent::run(esas, kombinasyon2, 2);
 		QFuture<void> future3 = QtConcurrent::run(esas, kombinasyon3, 3);
         QFuture<void> future4 = QtConcurrent::run(esas, kombinasyon4, 4);
         QFuture<void> future5 = QtConcurrent::run(esas, kombinasyon5, 5);
-        QFuture<void> future6 = QtConcurrent::run(esas, kombinasyon6, 6);
+		QFuture<void> future6 = QtConcurrent::run(esas, kombinasyon6, 6);
+		QFuture<void> future7 = QtConcurrent::run(esas, kombinasyon7, 7);
+		QFuture<void> future8 = QtConcurrent::run(esas, kombinasyon8, 8);
+		QFuture<void> future9 = QtConcurrent::run(esas, kombinasyon9, 9);
+		QFuture<void> future10 = QtConcurrent::run(esas, kombinasyon10, 10);
 
 		future1.waitForFinished();
 		future2.waitForFinished();
 		future3.waitForFinished();
         future4.waitForFinished();
         future5.waitForFinished();
-        future6.waitForFinished();
+		future6.waitForFinished();
+		future7.waitForFinished();
+		future8.waitForFinished();
+		future9.waitForFinished();
+		future10.waitForFinished();
 
     }
     file.close();
 
     return 0;
 }
+/*Dignity 129, divulge 16 yerde geçiyo ama listede dignity yok!
+	 Acquisition 17
+consent 35*/
+// 26. lemadan aldığım madem ölüm öldürülmüyor'lu yere itiraz gelirse: yeni okumaya başlayan bi adamın en fazla 4. 5. okuyacağı kitapta yazıyor bu
+// muhakemattaki israiliyatın dipottaki iahını almadım ama orda bi iki kelime vardı illustrate mesela

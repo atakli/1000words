@@ -302,10 +302,24 @@ lament
 manufacture
 lovable
 exist - 37
+force
+garment
+modest
+obtain
+mankind - 38
+efforts
+court
+deceive
+crush
+commit - 39
+delusion
+tenet
+authorit
+ruler - 40
 confusion
 extol
 transitory
 twig
 nullify
 bear
-form - 38
+form - 48
