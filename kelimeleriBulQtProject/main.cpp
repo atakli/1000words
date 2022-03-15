@@ -19,10 +19,10 @@ QString dosyayiAc(QString fileName, QIODevice::OpenModeFlag flag=QIODevice::Read
     file.close();
     return text;
 }
-#if 1
+#ifdef linux
 QString base = "/home/b720/Desktop/1000words";
 #else
-QString base = "../..";																				// TODO: neden olmadı
+QString base = "..";																				// TODO: neden olmadı
 #endif
 
 QStringList unused_words = dosyayiAc(base + "/1000 Words/kullanılmamışlar.txt").split('\n');
