@@ -1,24 +1,19 @@
+""" bura linux hints:
 git config --global credential.helper store
 # her seferinde şifre sormayı bırakması için
 # hatta zbu ayar için timeout da koyabilirsin:
 git config --global credential.helper 'cache --timeout=600'
 # çok hoş: (file contentini clipboard'a kopyala. başka güzel şeyleri de varmış xclip'in. man'ı oku diyorlar)
 xclip -sel c < githubToken.txt
-
+"""
 #import collections # used_words'daki duplicate'leri bulmak için. all_words_new'de 4 tane çıktı namussuz
 #print([item for item, count in collections.Counter(used_words).items() if count > 1])
-
+"""
 risale = "/home/b720/Desktop/1000words/collection/Signs+of+Miraculousness+-+Vahide.pdf"
 from PyPDF4.pdf import PdfFileReader
 reader = PdfFileReader(open(risale, "rb"))
 print(reader.numPages)
-
-In [19]: print(len(used_words))
-    ...: print(len(unused_words))
-    ...: print(len(all_words))
-    ...: print(len(used_words) + len(unused_words))
-    ...: print(len(all_words) - len(used_words) - len(unused_words))
-
+"""
 
 """
 slash = []				# kalan eksikleri burası sayesinde buldum. meğer "bu satırdakilerden sadece birini kullan" dediklerimizden birden fazlasını kullanmışız
@@ -34,7 +29,7 @@ for i in slash:
         print(i)
 """
   
-with open("/home/b720/Desktop/1000words/1000 Words/1000words_kullanılanlar.txt") as dosya:
+with open("/home/b720/Desktop/1000words/1000 Words/kullanılanlar.txt") as dosya:
 	used_words = dosya.readlines()
 used_words_new = []
 for word in used_words:
@@ -80,7 +75,7 @@ for word in all_words:
 unused_words_new = []
 for word in unused_words:
 	unused_words_new.append(word + '\n')
-with open('/home/b720/Desktop/1000words/1000 Words/kullanılmamış_kelimeler.txt','w') as dosya:
+with open('/home/b720/Desktop/1000words/1000 Words/kullanılmamışlar.txt','w') as dosya:
 	dosya.writelines(unused_words_new)
 	
 unused_words_new = []
@@ -103,6 +98,11 @@ for i in unused_words:
 		noluyor.append(i)
 print(*noluyor,sep='\n')
 """
+print(len(used_words))
+print(len(unused_words))
+print(len(all_words))
+print(len(used_words) + len(unused_words))
+print(len(all_words) - len(used_words) - len(unused_words))
 
 
 

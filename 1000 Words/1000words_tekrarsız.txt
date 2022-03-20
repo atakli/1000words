@@ -66,7 +66,7 @@ awesome
 awe (bu ikisi yanyanaydı. ben ayırdım [emre])
 banquet
 baseless / base
-bearer
+bear
 beauteous being
 behold
 belief / disbelief / disbelieve
@@ -898,7 +898,6 @@ twig
 tyrannical / tyranny
 unanimity
 unanimous
-unbelief
 unbiased
 unceasing
 undertake

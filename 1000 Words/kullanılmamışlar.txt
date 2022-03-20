@@ -26,11 +26,9 @@ amid
 animate
 annihilate
 antichrist
-apparent
 appetite
 applauded
 appointed hour
-appreciate
 approach
 arrogant
 artificially
@@ -47,10 +45,8 @@ beloved
 beneficial
 besought
 beware
-bewilder
 bitter
 blessedness
-boundless
 bow
 burden
 cease
@@ -146,7 +142,6 @@ ecstasy
 ecstatic
 ego
 eid
-element
 eliminate
 elucidate
 embrace
@@ -222,8 +217,6 @@ freedom
 fright
 frugal
 fruitful
-fundamental
-furnish
 generate
 generosity
 genius
@@ -246,7 +239,6 @@ grant
 grasp
 graveyard
 gravity
-great
 greed
 greets
 growth
@@ -254,14 +246,11 @@ guard
 guest
 gush
 hallow
-halt
 hang
 harass
-harmony
 harsh
 hatch
 heir
-hell
 hereafter
 hero / heroic / heroically
 highway
@@ -279,7 +268,6 @@ illiterate
 illuminate
 illusions / illusory
 illustrate / illustrator
-imagination
 immaterial
 immediacy / immediately
 immense
@@ -290,7 +278,6 @@ impel
 implicitly
 impose / imposition
 impress
-imprison
 impute
 inauspicious
 incalculable
@@ -314,12 +301,10 @@ innate
 innocence / innocent
 innovation / innovative
 inscribe
-inscription
 insistent
 inspect
 instil
 instruct / instructive
-insult
 intense / intensive
 intercessor
 intermingle
@@ -332,7 +317,6 @@ intrigue
 invalid
 invent
 investigate / investigation / investigator / investigative
-invite
 involve
 inward
 iota
@@ -378,7 +362,6 @@ messengerhood / messengership / messenger
 microcosm
 mighty / mightiest / mightiness
 miniature
-miniscule
 ministry / minister
 mischief
 missive
@@ -417,7 +400,6 @@ plain / plainful / plainly / plainness
 plaint / plaintiffs / plaintively / plaintive
 pole
 potion
-pray / prayer
 preacher / preach
 precede / precedence
 preference
@@ -433,7 +415,6 @@ profusion
 progeny / progenitor
 prompt / promptly
 pronouncement
-proof / proofless
 property
 prophetic / prophetically
 proportion / proportionate / proportionately
@@ -462,7 +443,6 @@ recompense
 reconcile / reconciliation
 recount
 recourse
-refrain
 regime
 regulate / regulation
 rejoice
@@ -502,7 +482,6 @@ scruple
 scrutinize
 seal
 seek
-sense
 sermon
 servitude
 severe
@@ -524,7 +503,6 @@ solitude
 solomon
 soothsayers
 sophist
-soul
 sparkle
 specific / specify
 spectacle
@@ -592,11 +570,9 @@ tribe / tribal / tribalism
 tribulation
 trivial
 troop
-trustworthy
 truthfulness
 tumult
 unanimity
-unbelief
 unbiased
 unceasing
 undertake
@@ -604,7 +580,6 @@ unequivocal
 unfair
 unfortunate
 union
-unique
 unlawful
 unseen
 upheaval
@@ -638,7 +613,6 @@ withdraw
 withstand
 witness
 workbench
-worth
 wound
 wrath
 wretch
