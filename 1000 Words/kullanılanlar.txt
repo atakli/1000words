@@ -341,10 +341,27 @@ unique
 furnish
 fundamental
 inscription - 45
+gild
+resign
+arrogant - 46
+bow
+fear
+desolation
+disappear
+solace - 47
+superior
+defect
+extinction
+labour - 48
 confusion
 extol
 transitory
 twig
 nullify
 bear
-form - 48
+form - 49
+cure
+fright
+weave
+wound
+beware - 50

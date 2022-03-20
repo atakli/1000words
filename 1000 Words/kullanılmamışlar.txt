@@ -30,7 +30,6 @@ appetite
 applauded
 appointed hour
 approach
-arrogant
 artificially
 ascend
 ascension
@@ -44,10 +43,8 @@ belief / disbelief / disbelieve
 beloved
 beneficial
 besought
-beware
 bitter
 blessedness
-bow
 burden
 cease
 circumstance
@@ -87,12 +84,10 @@ criminal
 criticism
 criticize
 crop
-cure
 darkness
 decisive
 decree
 deduce
-defect
 defence
 define
 definite
@@ -108,14 +103,12 @@ deputy
 derive
 descend
 desert
-desolation
 despair
 despatch
 despot
 deter
 deviate
 devil
-disappear
 discharge
 disease
 disgust
@@ -178,7 +171,6 @@ expose
 exquisite
 extensive
 external
-extinction
 extinguish
 extract
 faculty
@@ -187,7 +179,6 @@ fame
 fasting
 fate
 faultless
-fear / fearsome
 feast
 feature
 felicity
@@ -214,7 +205,6 @@ forgive
 foundation
 fragment
 freedom
-fright
 frugal
 fruitful
 generate
@@ -222,7 +212,6 @@ generosity
 genius
 gentle
 genuine
-gild
 glad
 gleam
 glisten
@@ -327,7 +316,6 @@ jealous
 judge / judgement
 judicial / judiciary / judicature
 kingdom / kingly / king
-labour
 layer
 liberality / liberation / liberty / libertarianism
 licit / illicit
@@ -457,7 +445,6 @@ representative
 repulse / repulsion / repulsive
 reserve
 reside
-resign
 resist
 response
 restrain
@@ -495,7 +482,6 @@ slander
 slaughter
 slave
 smooth
-solace
 solar
 solid
 solitary
@@ -532,7 +518,6 @@ succinct
 suffice
 sufism
 superficial
-superior
 superstition
 surpass
 surrender
@@ -602,7 +587,6 @@ wander
 ward
 waste / wasteland
 wave
-weave
 whisper
 wick
 widespread
@@ -613,7 +597,6 @@ withdraw
 withstand
 witness
 workbench
-wound
 wrath
 wretch
 yearn
