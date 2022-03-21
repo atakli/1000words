@@ -65,7 +65,6 @@ conscientious
 consolation
 constitutional
 consult
-contest
 contingent
 conversation
 convict
@@ -114,7 +113,6 @@ disease
 disgust
 dispel
 disperse
-disregarded
 dissembler
 disseminate
 dissolute
@@ -128,7 +126,6 @@ doom / doomsday
 dread
 dream
 drop / droplet
-drowned
 dungeon
 earthquake
 ecstasy
@@ -430,7 +427,6 @@ recluse
 recompense
 reconcile / reconciliation
 recount
-recourse
 regime
 regulate / regulation
 rejoice
@@ -452,7 +448,6 @@ resurrect
 retain
 revenge
 reverse
-revolution
 rhetoric
 riddle
 rotation
@@ -471,7 +466,6 @@ seal
 seek
 sermon
 servitude
-severe
 shatter
 sheer
 shell
@@ -492,7 +486,6 @@ sophist
 sparkle
 specific / specify
 spectacle
-sphere
 spin / spinning
 spite
 split
@@ -577,7 +570,6 @@ valley
 valuable
 vehement
 veneration
-verse
 vexed / vex
 victor
 violate
@@ -589,7 +581,6 @@ waste / wasteland
 wave
 whisper
 wick
-widespread
 wild
 wile
 wipe

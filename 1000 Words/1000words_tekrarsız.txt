@@ -213,7 +213,7 @@ display
 disposal
 dispose
 dispute
-disregarded
+disregard
 dissembler
 disseminate
 dissolute
@@ -233,7 +233,7 @@ doubt
 dread
 dream
 drop / droplet
-drowned
+drown
 dungeon
 dwell
 earthquake
