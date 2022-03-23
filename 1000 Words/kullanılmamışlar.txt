@@ -11,19 +11,16 @@ account
 accumulate
 acknowledge
 acqaintance
-acquaint
 acquit
 addenda
 addendum
 adhere
 adoration
-affect
 afford
 agent
 aggress
 alternation
 amid
-animate
 annihilate
 antichrist
 appetite
@@ -36,13 +33,11 @@ ascension
 assault
 assembly
 astonish
-astray
 await
 baseless / base
 belief / disbelief / disbelieve
 beloved
 beneficial
-besought
 bitter
 blessedness
 burden
@@ -102,7 +97,6 @@ deputy
 derive
 descend
 desert
-despair
 despatch
 despot
 deter
@@ -123,7 +117,6 @@ division
 divulge
 doer
 doom / doomsday
-dread
 dream
 drop / droplet
 dungeon
@@ -138,14 +131,12 @@ embrace
 emerge
 eminent
 emotion
-encompass
 encounter
 enjoin
 enjoyment
 ensure
 enthusiasm
 entire
-entreat
 entrust
 environ
 envoy
@@ -157,7 +148,6 @@ evidence
 excite
 exclaim
 execute
-exhibit
 expand
 expanse
 expend
@@ -178,7 +168,6 @@ fate
 faultless
 feast
 feature
-felicity
 fellow
 festival
 figure
@@ -237,7 +226,6 @@ harass
 harsh
 hatch
 heir
-hereafter
 hero / heroic / heroically
 highway
 hinder / hindrance
@@ -265,12 +253,10 @@ implicitly
 impose / imposition
 impress
 impute
-inauspicious
 incalculable
 incident
 inculcate / inculcation
 incumbent
-incur
 indebted
 indicate / indicative / indication
 indictable / indictment
@@ -286,7 +272,6 @@ injustice
 innate
 innocence / innocent
 innovation / innovative
-inscribe
 insistent
 inspect
 instil
@@ -322,7 +307,6 @@ literal
 literary / literate
 livelihood
 loath / loathsome / loathsomeness
-lodge
 loyal
 lunacy
 lunatic
@@ -349,7 +333,6 @@ mighty / mightiest / mightiness
 miniature
 ministry / minister
 mischief
-missive
 mobilize / mobilization / demobilize
 mock
 monster
@@ -462,7 +445,6 @@ scribe
 script
 scruple
 scrutinize
-seal
 seek
 sermon
 servitude
@@ -488,7 +470,6 @@ specific / specify
 spectacle
 spin / spinning
 spite
-split
 sprout
 stable
 stamp
@@ -498,7 +479,6 @@ steam
 strata
 stratagem
 stray
-string
 struck
 stubborn
 stupid
@@ -513,7 +493,6 @@ sufism
 superficial
 superstition
 surpass
-surrender
 surround
 surveillance
 suspend
@@ -548,7 +527,6 @@ tribe / tribal / tribalism
 tribulation
 trivial
 troop
-truthfulness
 tumult
 unanimity
 unbiased
@@ -565,7 +543,6 @@ uphold
 upright
 usury
 utilize
-utter
 valley
 valuable
 vehement
@@ -586,7 +563,6 @@ wile
 wipe
 withdraw
 withstand
-witness
 workbench
 wrath
 wretch
