@@ -199,6 +199,7 @@ Makefile: ..\kelimeleriBulQtProject\kelimeleriBul.pro C:\Qt\CustomInstallation\6
 		C:\Qt\CustomInstallation\6.2.1\msvc2019_64\mkspecs\features\qt_config.prf \
 		C:\Qt\CustomInstallation\6.2.1\msvc2019_64\mkspecs\win32-msvc\qmake.conf \
 		C:\Qt\CustomInstallation\6.2.1\msvc2019_64\mkspecs\features\spec_post.prf \
+		.qmake.stash \
 		C:\Qt\CustomInstallation\6.2.1\msvc2019_64\mkspecs\features\exclusive_builds.prf \
 		C:\Qt\CustomInstallation\6.2.1\msvc2019_64\mkspecs\common\msvc-version.conf \
 		C:\Qt\CustomInstallation\6.2.1\msvc2019_64\mkspecs\features\toolchain.prf \
@@ -224,7 +225,6 @@ Makefile: ..\kelimeleriBulQtProject\kelimeleriBul.pro C:\Qt\CustomInstallation\6
 		C:\Qt\CustomInstallation\6.2.1\msvc2019_64\mkspecs\features\lex.prf \
 		..\kelimeleriBulQtProject\kelimeleriBul.pro \
 		C:\Qt\CustomInstallation\6.2.1\msvc2019_64\lib\Qt6Core.prl \
-		.qmake.stash \
 		C:\Qt\CustomInstallation\6.2.1\msvc2019_64\mkspecs\features\build_pass.prf \
 		C:\Qt\CustomInstallation\6.2.1\msvc2019_64\lib\Qt6Cored.prl
 	$(QMAKE) -o Makefile ..\kelimeleriBulQtProject\kelimeleriBul.pro -spec win32-msvc "CONFIG+=qtquickcompiler"
@@ -343,6 +343,7 @@ C:\Qt\CustomInstallation\6.2.1\msvc2019_64\mkspecs\features\qt_functions.prf:
 C:\Qt\CustomInstallation\6.2.1\msvc2019_64\mkspecs\features\qt_config.prf:
 C:\Qt\CustomInstallation\6.2.1\msvc2019_64\mkspecs\win32-msvc\qmake.conf:
 C:\Qt\CustomInstallation\6.2.1\msvc2019_64\mkspecs\features\spec_post.prf:
+.qmake.stash:
 C:\Qt\CustomInstallation\6.2.1\msvc2019_64\mkspecs\features\exclusive_builds.prf:
 C:\Qt\CustomInstallation\6.2.1\msvc2019_64\mkspecs\common\msvc-version.conf:
 C:\Qt\CustomInstallation\6.2.1\msvc2019_64\mkspecs\features\toolchain.prf:
@@ -368,7 +369,6 @@ C:\Qt\CustomInstallation\6.2.1\msvc2019_64\mkspecs\features\yacc.prf:
 C:\Qt\CustomInstallation\6.2.1\msvc2019_64\mkspecs\features\lex.prf:
 ..\kelimeleriBulQtProject\kelimeleriBul.pro:
 C:\Qt\CustomInstallation\6.2.1\msvc2019_64\lib\Qt6Core.prl:
-.qmake.stash:
 C:\Qt\CustomInstallation\6.2.1\msvc2019_64\mkspecs\features\build_pass.prf:
 C:\Qt\CustomInstallation\6.2.1\msvc2019_64\lib\Qt6Cored.prl:
 qmake: FORCE
