@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 5.0.3, 2022-03-21T23:14:20. -->
+<!-- Written by QtCreator 5.0.3, 2022-03-28T07:56:58. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -239,7 +239,7 @@
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/Emre ATAKLI/Documents/clones/1000words/kelimeleriBulQtProject/kelimeleriBul.pro</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/Emre ATAKLI/Documents/clones/1000words/kelimeleriBulQtProject/kelimeleriBul.pro</value>
-    <value type="QString" key="RunConfiguration.Arguments">7</value>
+    <value type="QString" key="RunConfiguration.Arguments">6</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
