@@ -398,3 +398,21 @@ string
 missive
 surrender
 dread - 57
+stamp
+drop
+fragment
+creative
+descend
+demonstrate - 58
+temporary
+idiot
+needy
+reckon
+abase
+mock - 59
+deprave
+criticism
+indication
+darkness
+devil
+appointed hour - 60

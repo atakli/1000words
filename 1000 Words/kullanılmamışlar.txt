@@ -1,4 +1,3 @@
-abase
 abject
 ablution
 abrogate
@@ -25,7 +24,6 @@ annihilate
 antichrist
 appetite
 applauded
-appointed hour
 approach
 artificially
 ascend
@@ -72,13 +70,10 @@ course
 covert
 craftsman
 creation
-creative
 crescent
 criminal
-criticism
 criticize
 crop
-darkness
 decisive
 decree
 deduce
@@ -86,22 +81,18 @@ defence
 define
 definite
 delicious
-demonstrate
 denial / denier
 denote
 depend
 depict
-deprave
 depth
 deputy
 derive
-descend
 desert
 despatch
 despot
 deter
 deviate
-devil
 discharge
 disease
 disgust
@@ -118,7 +109,6 @@ divulge
 doer
 doom / doomsday
 dream
-drop / droplet
 dungeon
 earthquake
 ecstasy
@@ -189,7 +179,6 @@ forefather
 foretell
 forgive
 foundation
-fragment
 freedom
 frugal
 fruitful
@@ -234,7 +223,6 @@ humble
 humiliate / humility
 hundredfold
 hypocrisy / hypocrite
-idiot
 idle
 idol / idolators / idolatrous
 ignorance / ignore / ignorant
@@ -258,7 +246,6 @@ incident
 inculcate / inculcation
 incumbent
 indebted
-indicate / indicative / indication
 indictable / indictment
 indubitably
 indulge
@@ -334,13 +321,11 @@ miniature
 ministry / minister
 mischief
 mobilize / mobilization / demobilize
-mock
 monster
 morale
 mourn
 myriad
 nationhood / nationality / national
-needy
 nightingale
 noble / nobly / nobility
 nonsense / nonsensical
@@ -405,7 +390,6 @@ racial / racialism / racialist
 radiance / radiant / radiantly
 recipient / reception / receptive
 recite
-reckon
 recluse
 recompense
 reconcile / reconciliation
@@ -472,7 +456,6 @@ spin / spinning
 spite
 sprout
 stable
-stamp
 stature
 stead / steadfast
 steam
@@ -504,7 +487,6 @@ taint
 tazilite
 temperament
 tempest / tempestuous
-temporary
 tender
 terrify
 theologians
