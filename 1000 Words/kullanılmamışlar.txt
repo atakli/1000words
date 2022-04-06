@@ -167,7 +167,6 @@ flash
 flatter
 flaw
 flee
-fleet
 flesh
 fling
 flow
@@ -185,7 +184,6 @@ fruitful
 generate
 generosity
 genius
-gentle
 genuine
 glad
 gleam
