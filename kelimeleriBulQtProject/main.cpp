@@ -26,7 +26,7 @@ QString base = "..";																				// TODO: neden olmadı
 #endif
 
 QStringList unused_words = dosyayiAc(base + "/1000 Words/kullanılmamışlar.txt").split('\n');
-// TODO: self-exlanatory gibi olanları sacrifice ettim şimdilik. yani o selfexlanatory haline geldi
+// TODO: self-exlanatory gibi olanları sacrifice ettim şimdilik. yani o selfexplanatory haline geldi
 QString signs = dosyayiAc(base + "/collection/signs.txt").replace("-\n"," ").replace("\n"," ").replace("  "," ");
 QString words = dosyayiAc(base + "/collection/words.txt").replace("-\n"," ").replace("\n"," ").replace("  "," ");
 QString letters = dosyayiAc(base + "/collection/letters.txt").replace("-\n"," ").replace("\n"," ").replace("  "," ");
@@ -34,6 +34,8 @@ QString flashes = dosyayiAc(base + "/collection/flashes.txt").replace("-\n"," ")
 QString rays = dosyayiAc(base + "/collection/rays.txt").replace("-\n"," ").replace("\n"," ").replace("  "," ");
 QString muhakemat = dosyayiAc(base + "/collection/muhakemat.txt").replace("-\n"," ").replace("\n"," ").replace("  "," ");
 auto kitaplar = {&words, &flashes, &letters, &rays, &signs, &muhakemat};
+
+const int readingTextLength = 2300;
 
 QFile file(base + "/results1.txt");
 QTextStream stream(&file);
@@ -72,22 +74,17 @@ QVector<int> find_all(const QString &a_str, QString sub)
 }
 bool isInThisInterval(int baslangic_noktasi, QString word, const QString& text)
 {
-    if (find_all(text.mid(baslangic_noktasi, 2300), word).isEmpty())
-        return false;
-    else
-        return true;
+    return !find_all(text.mid(baslangic_noktasi, readingTextLength), word).isEmpty();
 }
 bool icinde_mi(int baslangic_noktasi, QStringList kombinasyon, const QString& text)
 {
     if (isInThisInterval(baslangic_noktasi, kombinasyon[0], text))
     {
-
         if (kombinasyon.length() == 1)
             return true;
         return icinde_mi(baslangic_noktasi, kombinasyon.mid(1), text);
     }
-    else
-        return false;
+    return false;
 }
 QStringList choices(QStringList words, uint8_t sizeOfGroup)
 {
@@ -114,7 +111,7 @@ QStringList choose(QStringList words, uint8_t sizeOfGroup)
 
     QStringList words_new = choices(words, sizeOfGroup);
 
-    for(int index=0; index<words_new.length(); ++index)
+    for(int index=0; index < words_new.length(); ++index)
         if (words_new.at(index).contains('/'))
         {
             QStringList splittedStr = words_new.at(index).split(" / ");
@@ -175,7 +172,7 @@ void esas(QStringList kombinasyon, uint8_t num)
                         stream << komb << " ";
                     }
 					stream << "\nkitap: " << QString::number(kitap) << " - thread: " << num << " - index: " << finding << "\n";
-					stream << "\nMetin:\n" << text->mid(finding,2300).replace("\n", " ") << "\n";
+                    stream << "\nMetin:\n" << text->mid(finding, readingTextLength).replace("\n", " ") << "\n";
 //                    stream << "\nson part: " << text->mid(son_kelime_index,33);
 					stream << "--------------------------------------------------------------------------------------------\n\n";
 					stream.flush();
@@ -217,48 +214,68 @@ int main(int argc, char *argv[])
     {
 //        timer2.start();
 //        dongu += 1;
-		QStringList kombinasyon1 = choose(unused_words, groupNumber);
-		QStringList unusedwords_new = excludeForAMoment(unused_words, kombinasyon1);
-		QStringList kombinasyon2 = choose(unusedwords_new, groupNumber);
-		unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon2);
-		QStringList kombinasyon3 = choose(unusedwords_new, groupNumber);
-        unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon3);
-        QStringList kombinasyon4 = choose(unusedwords_new, groupNumber);
-        unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon4);
-        QStringList kombinasyon5 = choose(unusedwords_new, groupNumber);
-        unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon5);
-        QStringList kombinasyon6 = choose(unusedwords_new, groupNumber);
-		unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon6);
-		QStringList kombinasyon7 = choose(unusedwords_new, groupNumber);
-		unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon7);
-		QStringList kombinasyon8 = choose(unusedwords_new, groupNumber);
-		unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon8);
-		QStringList kombinasyon9 = choose(unusedwords_new, groupNumber);
-		unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon9);
-		QStringList kombinasyon10 = choose(unusedwords_new, groupNumber);
 
+        QStringList kombinasyonlar[10];
 
-		QFuture<void> future1 = QtConcurrent::run(esas, kombinasyon1, 1);
-		QFuture<void> future2 = QtConcurrent::run(esas, kombinasyon2, 2);
-		QFuture<void> future3 = QtConcurrent::run(esas, kombinasyon3, 3);
-        QFuture<void> future4 = QtConcurrent::run(esas, kombinasyon4, 4);
-        QFuture<void> future5 = QtConcurrent::run(esas, kombinasyon5, 5);
-		QFuture<void> future6 = QtConcurrent::run(esas, kombinasyon6, 6);
-		QFuture<void> future7 = QtConcurrent::run(esas, kombinasyon7, 7);
-		QFuture<void> future8 = QtConcurrent::run(esas, kombinasyon8, 8);
-		QFuture<void> future9 = QtConcurrent::run(esas, kombinasyon9, 9);
-		QFuture<void> future10 = QtConcurrent::run(esas, kombinasyon10, 10);
+        kombinasyonlar[0] = choose(unused_words, groupNumber);
+        QStringList unusedwords_new = excludeForAMoment(unused_words, kombinasyonlar[0]);
+        kombinasyonlar[1] = choose(unusedwords_new, groupNumber);
 
-		future1.waitForFinished();
-		future2.waitForFinished();
-		future3.waitForFinished();
-        future4.waitForFinished();
-        future5.waitForFinished();
-		future6.waitForFinished();
-		future7.waitForFinished();
-		future8.waitForFinished();
-		future9.waitForFinished();
-		future10.waitForFinished();
+        for(int i=2; i < 10; ++i)
+        {
+            unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyonlar[i-1]);
+            kombinasyonlar[i] = choose(unusedwords_new, groupNumber);
+        }
+
+//        unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon[1]);
+//        kombinasyon[2] = choose(unusedwords_new, groupNumber);
+//        unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon[2]);
+//        kombinasyon[3] = choose(unusedwords_new, groupNumber);
+//        unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon[3]);
+//        kombinasyon[4] = choose(unusedwords_new, groupNumber);
+//        unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon[4]);
+//        kombinasyon[5] = choose(unusedwords_new, groupNumber);
+//        unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon[5]);
+//        kombinasyon[6] = choose(unusedwords_new, groupNumber);
+//        unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon[6]);
+//        kombinasyon[7] = choose(unusedwords_new, groupNumber);
+//        unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon[7]);
+//        kombinasyon[8] = choose(unusedwords_new, groupNumber);
+//        unusedwords_new = excludeForAMoment(unusedwords_new, kombinasyon[8]);
+//        kombinasyon[9] = choose(unusedwords_new, groupNumber);
+
+        QFuture<void> futures[10];
+        for(int i=0; i < 10; ++i)
+        {
+            futures[i] = QtConcurrent::run(esas, kombinasyonlar[i], i + 1);
+        }
+
+//		QFuture<void> future1 = QtConcurrent::run(esas, kombinasyon1, 1);
+//		QFuture<void> future2 = QtConcurrent::run(esas, kombinasyon2, 2);
+//		QFuture<void> future3 = QtConcurrent::run(esas, kombinasyon3, 3);
+//        QFuture<void> future4 = QtConcurrent::run(esas, kombinasyon4, 4);
+//        QFuture<void> future5 = QtConcurrent::run(esas, kombinasyon5, 5);
+//		QFuture<void> future6 = QtConcurrent::run(esas, kombinasyon6, 6);
+//		QFuture<void> future7 = QtConcurrent::run(esas, kombinasyon7, 7);
+//		QFuture<void> future8 = QtConcurrent::run(esas, kombinasyon8, 8);
+//		QFuture<void> future9 = QtConcurrent::run(esas, kombinasyon9, 9);
+//		QFuture<void> future10 = QtConcurrent::run(esas, kombinasyon10, 10);
+
+        for(int i=0; i < 10; ++i)
+        {
+            futures[i].waitForFinished();
+        }
+
+//		future1.waitForFinished();
+//		future2.waitForFinished();
+//		future3.waitForFinished();
+//        future4.waitForFinished();
+//        future5.waitForFinished();
+//		future6.waitForFinished();
+//		future7.waitForFinished();
+//		future8.waitForFinished();
+//		future9.waitForFinished();
+//		future10.waitForFinished();
 
     }
     file.close();
