@@ -333,16 +333,25 @@ appreciate
 halt
 bewilder - 43
 refrain
+withstand
 imprison
 worth
 prayer
+recompense
 soul - 44
 unique
 furnish
 fundamental
+ascend
 inscription - 45
-gild
+emotion
+wild
+assault
+torment
 resign
+gild
+enthusiasm
+forgive
 arrogant - 46
 bow
 fear
@@ -385,8 +394,10 @@ acquaint
 truthfulness - 54
 hereafter
 witness
+resurrect
 animate
 felicity
+derive
 lodge - 55
 despair
 affect

@@ -26,9 +26,7 @@ appetite
 applauded
 approach
 artificially
-ascend
 ascension
-assault
 assembly
 astonish
 await
@@ -87,7 +85,6 @@ depend
 depict
 depth
 deputy
-derive
 desert
 despatch
 despot
@@ -120,12 +117,10 @@ elucidate
 embrace
 emerge
 eminent
-emotion
 encounter
 enjoin
 enjoyment
 ensure
-enthusiasm
 entire
 entrust
 environ
@@ -176,7 +171,6 @@ fold
 forbear
 forefather
 foretell
-forgive
 foundation
 freedom
 frugal
@@ -389,7 +383,6 @@ radiance / radiant / radiantly
 recipient / reception / receptive
 recite
 recluse
-recompense
 reconcile / reconciliation
 recount
 regime
@@ -409,7 +402,6 @@ reside
 resist
 response
 restrain
-resurrect
 retain
 revenge
 reverse
@@ -491,7 +483,6 @@ theologians
 theoretical
 throat
 thunder
-torment
 torture
 trace
 tranquil
@@ -538,11 +529,9 @@ waste / wasteland
 wave
 whisper
 wick
-wild
 wile
 wipe
 withdraw
-withstand
 workbench
 wrath
 wretch

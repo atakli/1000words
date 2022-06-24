@@ -29,7 +29,8 @@ for i in slash:
         print(i)
 """
   
-with open("/home/b720/Desktop/1000words/1000 Words/kullanılanlar.txt") as dosya:
+# with open("/home/b720/Desktop/1000words/1000 Words/kullanılanlar.txt") as dosya:
+with open("1000 Words/kullanılanlar.txt") as dosya:
 	used_words = dosya.readlines()
 used_words_new = []
 for word in used_words:
@@ -39,7 +40,8 @@ for word in used_words:
 used_words = used_words_new
 del used_words_new
 
-with open("/home/b720/Desktop/1000words/1000 Words/1000words_tekrarsız.txt") as dosya:
+# with open("/home/b720/Desktop/1000words/1000 Words/1000words_tekrarsız.txt") as dosya:
+with open("1000 Words/1000words_tekrarsız.txt") as dosya:
 	all_words = dosya.readlines()	
 all_words_new = []
 for word in all_words:
@@ -75,7 +77,8 @@ for word in all_words:
 unused_words_new = []
 for word in unused_words:
 	unused_words_new.append(word + '\n')
-with open('/home/b720/Desktop/1000words/1000 Words/kullanılmamışlar.txt','w') as dosya:
+# with open('/home/b720/Desktop/1000words/1000 Words/kullanılmamışlar.txt','w') as dosya:
+with open('1000 Words/kullanılmamışlar.txt','w') as dosya:
 	dosya.writelines(unused_words_new)
 	
 unused_words_new = []
@@ -98,11 +101,11 @@ for i in unused_words:
 		noluyor.append(i)
 print(*noluyor,sep='\n')
 """
-print(len(used_words))
-print(len(unused_words))
-print(len(all_words))
-print(len(used_words) + len(unused_words))
-print(len(all_words) - len(used_words) - len(unused_words))
+print('kullanılan kelime sayısı: ', len(used_words))
+print('kullanılmamış kelime sayısı: ', len(unused_words))
+print('toplam kelime sayısı: ', len(all_words))
+print('kullanılan ve kullanılmamış kelimelerin toplamının sayısı: ', len(used_words) + len(unused_words))
+print('toplamın kullanılan ve kullanılmamış kelimelerin toplamından farkının sayısı: ', len(all_words) - len(used_words) - len(unused_words))
 
 
 
