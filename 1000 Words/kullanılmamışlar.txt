@@ -28,7 +28,6 @@ approach
 artificially
 ascension
 assembly
-astonish
 await
 baseless / base
 belief / disbelief / disbelieve
@@ -36,7 +35,6 @@ beloved
 beneficial
 bitter
 blessedness
-burden
 cease
 circumstance
 civilization
@@ -53,15 +51,11 @@ congratulate
 congregate
 conquer
 conscientious
-consolation
 constitutional
 consult
 contingent
 conversation
-convict
 convince
-corpse
-corpuscle
 correspond
 corroborate
 course
@@ -86,11 +80,9 @@ depict
 depth
 deputy
 desert
-despatch
 despot
 deter
 deviate
-discharge
 disease
 disgust
 dispel
@@ -145,7 +137,6 @@ extensive
 external
 extinguish
 extract
-faculty
 falsehood
 fame
 fasting
@@ -192,7 +183,6 @@ govern
 grace
 grain
 grant
-grasp
 graveyard
 gravity
 greed
@@ -250,7 +240,6 @@ injunction
 injustice
 innate
 innocence / innocent
-innovation / innovative
 insistent
 inspect
 instil
@@ -387,12 +376,10 @@ reconcile / reconciliation
 recount
 regime
 regulate / regulation
-rejoice
 release
 reliance / reliable
 religious / religiosity
 render
-renew
 repel
 repent
 representative
@@ -421,7 +408,6 @@ scruple
 scrutinize
 seek
 sermon
-servitude
 shatter
 sheer
 shell
@@ -430,7 +416,6 @@ silence
 slack
 slander
 slaughter
-slave
 smooth
 solar
 solid
@@ -457,7 +442,6 @@ stubborn
 stupid
 submerge
 submission / submissive
-subsist / subsistence
 substitute
 succeed
 succinct
@@ -517,9 +501,7 @@ utilize
 valley
 valuable
 vehement
-veneration
 vexed / vex
-victor
 violate
 visible
 volition
@@ -528,12 +510,10 @@ ward
 waste / wasteland
 wave
 whisper
-wick
 wile
 wipe
 withdraw
 workbench
 wrath
-wretch
 yearn
 yield

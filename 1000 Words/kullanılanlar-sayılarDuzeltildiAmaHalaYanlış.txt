@@ -18,30 +18,30 @@ delicate
 compassionate
 dominical - 2
 motion
-supreme gathering
+supreme 3
 equilibrium
 sustainer
 utmost
 miraculous
 nurture
 treasury
-merciful - 3
+merciful - 4
 cosmos
 perfection
 inclination
 adorn
-beauteous being
+beauteous 5
 glory
 extraordinary
-paradise - 4
+paradise - 6
 summon
 grandeur
-miraculous exposition
+miraculous 7
 wise
 infinite
 wisdom
-divine unity
-sublimity - 5
+divine 8
+sublimity - 9
 splendid
 proclamation
 unanimous
@@ -49,7 +49,7 @@ munificence
 embroider
 vital
 brilliant
-purposive - 6
+purposive - 10
 proceed
 gnosis
 distinct
@@ -57,17 +57,17 @@ comprehensive
 attribute
 display
 wonder
-preclude - 7
+preclude - 11
 voyager
 supreme
 assent
 sacred
-people of misguidance
+people of 12
 opponent
 heed
 luminous
 confront
-renown - 8
+renown - 13
 provision
 comprehend
 servant
@@ -75,7 +75,7 @@ transparent
 bounty
 universe
 breath
-disposal - 9
+disposal - 14
 essence
 conscious
 depart
@@ -83,7 +83,7 @@ concern
 worship
 incite
 refute
-prevail - 10
+prevail - 15
 expound
 absolute
 accomplish
@@ -91,7 +91,7 @@ transcend
 attain
 hostile
 abundance
-doubt - 11
+doubt - 16
 vile
 testimony
 condemn
@@ -99,7 +99,7 @@ contradict
 devote
 veil
 vicegerency
-cruel - 12
+cruel - 17
 sovereign
 intervene
 feeble
@@ -108,7 +108,7 @@ impotence
 extend
 metaphor
 firm
-imperious - 13
+imperious - 18
 instinct
 deem
 affirm
@@ -118,7 +118,7 @@ specimen
 obscure
 deed
 ascribed
-virtue - 14
+virtue - 19
 inherent
 scatter
 craft
@@ -126,7 +126,7 @@ dwell
 degree
 substance
 pleasant
-instant - 15
+instant - 20
 moral
 benefit
 obstinate
@@ -135,7 +135,7 @@ comparison
 striving
 voluntary
 conceit
-endeavour - 16
+endeavour - 21
 transience
 weep
 plunge
@@ -143,7 +143,7 @@ ephemeral
 beneath
 smash
 extreme
-eternal - 17
+eternal - 22
 mould
 poverty
 omnipotent
@@ -151,21 +151,21 @@ inferior
 conflict
 assist
 savage
-principle - 18
+principle - 23
 authentic
 consensus
 exile
 rebellion
 declare
 struggle
-prophethood - 19
+prophethood - 24
 habit
 dispute
 decept
 trickery
 fancy
 refuse
-elevate - 20
+elevate - 25
 rival
 refine
 peer
@@ -173,7 +173,7 @@ convey
 hesitate
 saint
 imitate
-profound - 21
+profound - 26
 reject
 reward
 branch
@@ -182,7 +182,7 @@ disaster
 sting
 affair
 infant
-awe - 22
+awe - 27
 justice
 wing
 bliss
@@ -190,14 +190,14 @@ preservation
 hasten
 plea
 limb
-eternity - 23
+eternity - 28
 fine
 corporeal
 tongue
 endow
 consequence
 skilful
-create - 24
+create - 29
 inspiration
 compose
 solicitous
@@ -206,7 +206,7 @@ obstruct
 shine
 supplicate
 misfortune
-indigent - 25
+indigent - 30
 reveal
 veracious
 eloquence
@@ -214,34 +214,34 @@ vague
 embodied
 deprive
 portray
-concise - 26
+concise - 31
 constellation
 gaze
 supervise
 contemplate
 nourish
 inhabit
-ponder - 27
+ponder - 32
 accord
 spirit
 surmise
 abode
 decorate
 sufficient
-angel - 28
+angel - 33
 obligation
 proud
-evil commanding soul
+evil commanding 34
 mystery
 grief
 relieve
-pride - 29
+pride - 35
 comprise
 evil
 abandon
 exempt
 tyranny
-guilt - 30
+guilt - 36
 fierce
 wage
 excess
@@ -249,7 +249,7 @@ deficient
 futile
 acquire
 will
-knowledge - 31
+knowledge - 37
 vice
 compell
 fortunate
@@ -258,7 +258,7 @@ submit
 vain
 subjugate
 prescribed
-tremble - 31
+tremble - 38
 equivalent
 narration
 calamity
@@ -267,14 +267,14 @@ sincere
 transform
 requital
 anxious
-gratitude - 32
+gratitude - 39
 conduct
 effulgence
 incontestable
 recall
 impart
 innovation
-answerable - 33
+answerable - 40
 faith
 remedy
 constant
@@ -285,31 +285,31 @@ prohibition
 honour
 reflect
 facility
-conform - 34
+conform - 41
 oppress
 latter
 former
 tribunal
-transaction - 35
+transaction - 42
 separation
 herald
 subtle
 admire
 behold
 vanish
-enmity - 36
+enmity - 43
 delight
 lament
 manufacture
 lovable
-exist - 37
+exist - 44
 force
 garment
 modest
 servitude
 obtain
 slave
-mankind - 38
+mankind - 45
 imagination
 miniscule
 corpuscle
@@ -317,21 +317,21 @@ subsist
 apparent
 great
 element
-harmony - 39
+harmony - 46
 efforts
 court
 astonish
 deceive
 crush
 discharge
-commit - 40
+commit - 47
 wretch
 delusion
 tenet
 grasp
 convict
 authorit
-ruler - 41
+ruler - 48
 veneration
 trustworthy
 invite
@@ -339,25 +339,25 @@ wick
 insult
 boundless
 faculty
-sense - 42
+sense - 49
 hell
 proof
 appreciate
 halt
 victor
-bewilder - 43
+bewilder - 50
 refrain
 withstand
 imprison
 worth
 prayer
 recompense
-soul - 44
+soul - 51
 unique
 furnish
 fundamental
 ascend
-inscription - 45
+inscription - 52
 emotion
 wild
 assault
@@ -366,14 +366,14 @@ resign
 gild
 enthusiasm
 forgive
-arrogant - 46
+arrogant - 53
 consolation
 corpse
 bow
 fear
 desolation
 disappear
-solace - 47
+solace - 54
 burden
 rejoice
 superior
@@ -381,60 +381,60 @@ defect
 extinction
 despatch
 renew
-labour - 48
+labour - 55
 confusion
 extol
 transitory
 twig
 nullify
 bear
-form - 49
+form - 56
 cure
 fright
 weave
 wound
-beware - 50
+beware - 57
 drown
 contest
 verse
 severe
-revolution - 51
+revolution - 58
 recourse
 sphere
 disregard
-widespread - 52
+widespread - 59
 encompass
 besought
 inscribe
 split
-seal - 53
+seal - 60
 utter
 entreat
 acquaint
-truthfulness - 54
+truthfulness - 61
 hereafter
 witness
 resurrect
 animate
 felicity
 derive
-lodge - 55
+lodge - 62
 despair
 affect
 astray
 inauspicious
-incur - 56
+incur - 63
 exhibit
 string
 missive
 surrender
-dread - 57
+dread - 64
 stamp
 drop
 fragment
 creative
 descend
-demonstrate - 58
+demonstrate - 65
 temporary
 idiot
 needy
@@ -442,10 +442,10 @@ reckon
 abase
 fleet
 gentle
-mock - 59
+mock - 66
 deprave
 criticism
 indication
 darkness
 devil
-appointed hour - 60
+appointed hour - 67
